@@ -18,15 +18,15 @@ int main(void)
 
 	if (PEPE > 5)
 	{
-		printf("%dLast digit of", n, "is", "and is greater than 5\n");
+		printf("%dLast digit of %i is and is greater than 5\n", n);
 	}
 	else if (PEPE == 0)
 	{
-		printf("%dLast digit of", n, "is", "and is 0\n");
+		printf("%dLast digit of %i is and is 0\n", n);
 	}
 	else if (PEPE < 6)
 	{
-		printf("%dLast digit of", n, "is", "and is less than 6 and not 0\n");
+		printf("%dLast digit of %i is and is less than 6 and not 0\n", n);
 	}
 	return (0);
 }
