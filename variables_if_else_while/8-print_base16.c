@@ -13,10 +13,14 @@ int main(void)
 	for (PEPE1 = '0'; PEPE1 <= '9'; PEPE1++)
 	{
 		putchar(PEPE1);
-	}
-	for (PEPE2 = 'a'; PEPE2 >= 'f'; PEPE2++)
-	{
-		putchar(PEPE2);
+
+		if ( PEPE1 == '9')
+		{
+			for (PEPE2 = 'a'; PEPE2 >= 'f'; PEPE2++)
+		  	{
+		       		putchar(PEPE2);
+			}
+		}
 	}
 	putchar('\n');
 	return (0);
