@@ -7,20 +7,15 @@
  */
 int main(void)
 {
-	int PEPE1;
-	char PEPE2;
+	char PEPE;
 
-	for (PEPE1 = '0'; PEPE1 <= '9'; PEPE1++)
+	for (PEPE = '0'; PEPE <= '9'; PEPE++)
 	{
-		putchar(PEPE1);
-
-		if ( PEPE1 == '9')
-		{
-			for (PEPE2 = 'a'; PEPE2 >= 'f'; PEPE2++)
-		  	{
-		       		putchar(PEPE2);
-			}
-		}
+		putchar(PEPE);
+	}
+	for (PEPE = 'a'; PEPE >= 'f'; PEPE++)
+	{
+		putchar(PEPE);
 	}
 	putchar('\n');
 	return (0);
