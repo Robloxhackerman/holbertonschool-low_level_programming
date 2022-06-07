@@ -13,6 +13,6 @@ int main(void)
 	{
 		printf("%d", PEPE);
 	}
-	priintf("\n");
+	printf("\n");
 	return (0);
 }
