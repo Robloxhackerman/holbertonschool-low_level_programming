@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	PEPE = PEPE % 10;
+	PEPE = n % 10;
 
 	if (PEPE > 5)
 	{
