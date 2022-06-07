@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (PEPE == 'e' || PEPE == 'q')
 		{
-			PEPE=PEPE;
+			PEPE = PEPE;
 		}
 		else
 		{
