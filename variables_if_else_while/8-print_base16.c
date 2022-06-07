@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(PEPE1);
 	}
-	for (PEPE2 = 'a'; PEPE >= 'f'; PEPE2++)
+	for (PEPE2 = 'a'; PEPE2 >= 'f'; PEPE2++)
 	{
 		putchar(PEPE2);
 	}
