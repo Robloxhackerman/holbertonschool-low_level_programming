@@ -14,7 +14,7 @@ int main(void)
 		putchar(PEPE);
 	}
 
-	for (PEPE = "A"; PEPE <= "Z"; PEPE++)
+	for (PEPE = 'A'; PEPE <= 'Z'; PEPE++)
 	{
 		putchar(PEPE);
 	}
