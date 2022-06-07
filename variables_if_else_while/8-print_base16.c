@@ -10,7 +10,7 @@ int main(void)
 	int PEPE1;
 	char PEPE2;
 
-	for (PEPE = '0'; PEPE <= '9'; PEPE++)
+	for (PEPE1 = '0'; PEPE1 <= '9'; PEPE1++)
 	{
 		putchar(PEPE1);
 	}
