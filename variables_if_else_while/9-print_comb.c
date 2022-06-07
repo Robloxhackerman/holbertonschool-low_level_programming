@@ -11,9 +11,10 @@ int main(void)
 
 	for (PEPE = '0'; PEPE <= '9'; PEPE++)
 	{
+		putchar(PEPE);
+
 		if (PEPE != 9)
 		{
-			putchar(PEPE);
 			putchar(',');
 			putchar(' ');
 		}
