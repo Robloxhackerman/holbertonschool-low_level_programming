@@ -11,7 +11,7 @@ int main(void)
 
 	for (PEPE = '0'; PEPE < 10; PEPE++)
 	{
-		printf("%d", n);
+		printf("%d", PEPE);
 	}
 	putchar('\n');
 	return (0);
