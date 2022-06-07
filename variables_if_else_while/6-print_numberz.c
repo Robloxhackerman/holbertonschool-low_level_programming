@@ -11,7 +11,7 @@ int main(void)
 
 	for (PEPE = 0; PEPE < 10; PEPE++)
 	{
-		putchar("%d", PEPE);
+		putchar(PEPE);
 	}
 	putchar('\n');
 	return (0);
