@@ -9,10 +9,11 @@ int main(void)
 {
 	int PEPE;
 
-	for (PEPE = 0; PEPE < 10; PEPE++)
+	for (PEPE = '0'; PEPE < '9'; PEPE++)
 	{
 		putchar(PEPE);
-		putchar(", ");
+		putchar(',');
+		putchar(' ');
 	}
 	printf("\n");
 	return (0);
