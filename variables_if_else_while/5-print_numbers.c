@@ -9,10 +9,10 @@ int main(void)
 {
 	int PEPE;
 
-	for (PEPE = '0'; PEPE < 10; PEPE++)
+	for (PEPE = 0; PEPE < 10; PEPE++)
 	{
 		printf("%d", PEPE);
 	}
-	putchar('\n');
+	priintf("\n");
 	return (0);
 }
