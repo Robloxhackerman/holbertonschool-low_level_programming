@@ -13,7 +13,7 @@ int main(void)
 	{
 		putchar(PEPE);
 
-		if (PEPE != 9)
+		if (PEPE != '9')
 		{
 			putchar(',');
 			putchar(' ');
