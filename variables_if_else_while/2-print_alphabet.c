@@ -1,6 +1,4 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
 
 /**
  * main - algo
@@ -11,11 +9,11 @@ int main(void)
 {
 	char PEPE;
 
-	for (PEPE = "a"; PEPE <= "z"; PEPE++)
+	for (PEPE = 'a'; PEPE <= 'z'; PEPE++)
 	{
 		putchar(PEPE);
 	}
 
-	putchar("\n")
+	putchar('\n');
 	return (0);
 }
