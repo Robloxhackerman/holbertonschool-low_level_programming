@@ -26,7 +26,7 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(PEPE3 + '0');
-			} 
+			}
 			else if (PEPE3 >= 10)
 			{
 				_putchar(',');
