@@ -12,7 +12,7 @@ void print_to_98(int n)
 
 	if (n <= 98)
 	{
-		for (PEPE1 = n; PEPE1 <= 98; i++)
+		for (PEPE1 = n; PEPE1 <= 98; PEPE1++)
 		{
 			if (PEPE1 != 98)
 			{
