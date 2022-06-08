@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _islower - check for alpha
+ * _isalpha - check for alpha
  *
  * @c: character to be checked
  *
@@ -9,7 +9,7 @@
  */
 int _isalpha(int c)
 {
-	if ((c >= 97 && c <= 122) || (c >=65 && c <= 90))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
 		return (1);
 	}
