@@ -9,7 +9,7 @@
 void print_alphabet_x10(void)
 {
 	char PEPE_C;
-	int PEPE_I
+	int PEPE_I;
 
 	for (PEPE_I = 0; PEPE_I <= 9; PEPE_I++)
 	{
