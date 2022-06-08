@@ -4,6 +4,9 @@
 /**
  * print_last_digit - print last digit of an int
  *
+ * @n: int to be checked
+ *
+ * Return: return pepe
  */
 int print_last_digit(int n)
 {
