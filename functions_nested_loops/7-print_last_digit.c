@@ -11,5 +11,10 @@ int print_last_digit(int n)
 
 	PEPE = n % 10;
 
+	if (PEPE < 0)
+	{
+		PEPE = PEPE * -1;
+	}
+	_putchar(PEPE + '0');
 	return (PEPE);
 }
