@@ -3,7 +3,7 @@
 
 /**
  * add - add 2 ints
- * 
+ *
  * @p1: value to be checked
  * @p2: value to be checked
  *
