@@ -14,9 +14,10 @@ void jack_bauer(void)
 	{
 		for (PEPE_M = 0; PEPE_M < 60; PEPE_M++)
 		{
-			_putchar(PEPE_H + '0');
+			_putchar((PEPE_H / 10) + '0');
 			_putchar(':');
 			_putchar(PEPE_M + '0');
+			_putchar('\n');
 		}
 	}
 }
