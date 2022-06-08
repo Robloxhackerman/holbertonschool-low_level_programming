@@ -12,5 +12,5 @@ int print_last_digit(int n)
 	PEPE = n % 10;
 
 	_putchar(PEPE);
-	return (last);
+	return (PEPE);
 }
