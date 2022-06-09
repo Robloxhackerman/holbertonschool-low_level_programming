@@ -9,4 +9,14 @@ void postive_or_negative(int i)
 {
 	if (i > 0)
 	{
-		printf(
+		printf("a");
+	}
+	else if (i == 0)
+	{
+		printf("b");
+	}
+	else if (i < 0);
+	{
+		printf("a");
+	}
+}
