@@ -8,9 +8,9 @@
  */
 void print_numbers(void)
 {
-	char PEPE;
+	int PEPE;
 
-	for (PEPE = '0'; PEPE >= '9'; PEPE++)
+	for (PEPE = 48; PEPE < 58; PEPE++)
 	{
 		_putchar(PEPE);
 	}
