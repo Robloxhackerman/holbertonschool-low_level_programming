@@ -6,7 +6,7 @@
  *
  * Return: return void
  */
-vpid print_numbers(void)
+void print_numbers(void)
 {
 	int PEPE;
 
