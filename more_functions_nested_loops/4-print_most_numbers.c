@@ -12,7 +12,7 @@ void print_most_numbers(void)
 
 	for (PEPE = 48; PEPE < 58; PEPE++)
 	{
-		if (PEPE != 50)
+		if (PEPE != 50 || PEPE != 52)
 		{
 			_putchar(PEPE);
 		}
