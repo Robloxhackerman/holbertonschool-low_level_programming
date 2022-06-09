@@ -12,7 +12,7 @@ void print_numbers(void)
 
 	for (PEPE = '0'; PEPE >= '9'; PEPE++)
 	{
-		_putchar(PEPE)
+		_putchar(PEPE);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
