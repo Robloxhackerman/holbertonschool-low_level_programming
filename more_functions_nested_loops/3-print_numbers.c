@@ -8,11 +8,4 @@
  */
 void print_numbers(void)
 {
-	int PEPE;
-
-	for (PEPE = 48; PEPE < 58; PEPE++)
-	{
-		_putchar(PEPE);
-	}
-	_putchar('\n');
 }
