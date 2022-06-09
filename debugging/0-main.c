@@ -15,7 +15,7 @@ void postive_or_negative(int i)
 	{
 		printf("b");
 	}
-	else if (i < 0);
+	else if (i < 0)
 	{
 		printf("a");
 	}
