@@ -8,7 +8,7 @@
  */
 void print_numbers(void)
 {
-	int PEPE;
+	char PEPE;
 
 	for (PEPE = '0'; PEPE >= '9'; PEPE++)
 	{
