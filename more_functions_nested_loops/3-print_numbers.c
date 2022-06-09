@@ -14,9 +14,5 @@ void print_numbers(void)
 	{
 		_putchar(PEPE);
 	}
-	else
-	{
-		PEPE++;
-	}
 	_putchar('\n');
 }
