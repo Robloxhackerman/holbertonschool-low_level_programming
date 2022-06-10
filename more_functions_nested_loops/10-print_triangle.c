@@ -17,7 +17,7 @@ void print_triangle(int size)
 		{
 			_putchar(' ');
 		}
-		for (PEPE2--; size < PEPE2; PEPE2++)
+		for (PEPE2--; size > PEPE2; PEPE2++)
 		{
 			_putchar(35);
 		}
