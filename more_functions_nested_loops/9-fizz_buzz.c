@@ -13,7 +13,7 @@ int main(void)
 	printf("1");
 	printf(" 2");
 
-	for (PEPE = 3; PEPE < 100; PEPE++)
+	for (PEPE = 3; PEPE < 101; PEPE++)
 	{
 		if ((PEPE % 3) == 0 && (PEPE % 5) == 0)
 		{
