@@ -9,8 +9,11 @@
 int main(void)
 {
 	int PEPE;
+	
+	printf("1");
+	printf(" 2")
 
-	for (PEPE = 0; PEPE < 100; PEPE++)
+	for (PEPE = 2; PEPE < 100; PEPE++)
 	{
 		if ((PEPE % 3) == 0)
 		{
