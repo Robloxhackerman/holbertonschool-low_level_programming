@@ -14,7 +14,7 @@ void more_numbers(void)
 	{
 		for (PEPE2 = 0; PEPE2 < 14; PEPE2++)
 		{
-			_putchar(PEPE);
+			_putchar(PEPE2);
 		}
 	}
 	_putchar('\n');
