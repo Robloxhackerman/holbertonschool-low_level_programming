@@ -12,9 +12,13 @@ void more_numbers(void)
 
 	for (PEPE1 = 0; PEPE1 < 10; PEPE1++)
 	{
-		for (PEPE2 = 0; PEPE2 < 14; PEPE2++)
+		for (PEPE2 = 0; PEPE2 < 15; PEPE2++)
 		{
-			_putchar(PEPE2);
+			if (PEPE2 >= 10)
+			{
+				_putchar((PEPE2 / 10) + 48);
+			}
+			_putchar((PEPE2 % 10) + 48);
 		}
 	}
 	_putchar('\n');
