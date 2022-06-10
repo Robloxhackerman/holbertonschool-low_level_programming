@@ -15,17 +15,17 @@ int main(void)
 
 	for (PEPE = 3; PEPE < 100; PEPE++)
 	{
-		if ((PEPE % 3) == 0)
+		if ((PEPE % 3) == 0 && (PEPE % 5) == 0)
 		{
-			printf(" Fizz");
+			printf(" FizzBuzz");
 		}
 		else if ((PEPE % 5) == 0)
 		{
 			printf(" Buzz");
 		}
-		else if ((PEPE % 3) == 0 && (PEPE % 5) == 0)
+		else if ((PEPE % 3) == 0)
 		{
-			printf(" FizzBuzz");
+			printf(" Fizz");
 		}
 		else
 		{
