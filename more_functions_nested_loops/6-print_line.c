@@ -12,13 +12,7 @@ void print_line(int n)
 
 	for ( PEPE = 0; PEPE <= n; PEPE++)
 	{
-		if ( n == 0)
-		{
-			_putchar(95);
-		}
-		else
-		{
-			_putchar('\n');
-		}
+		_putchar(95);
 	}
+º	_putchar('\n');
 }
