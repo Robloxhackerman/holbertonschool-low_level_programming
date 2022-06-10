@@ -14,7 +14,7 @@ void print_diagonal(int n)
 	{
 		for (PEPE2 = 0; n < PEPE2; PEPE2++)
 		{
-			_putchar(32);
+			_putchar(' ');
 		}
 		_putchar(92);
 	}
