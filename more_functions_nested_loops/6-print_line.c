@@ -14,7 +14,7 @@ void print_line(int n)
 	{
 		if ( n == 0)
 		{
-			_putchar(92 + 110)
+			_putchar((92) + (110))
 		}
 		else
 		{
