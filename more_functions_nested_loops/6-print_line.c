@@ -3,6 +3,8 @@
 
 /**
  * print_line - pritn n times line
+ * 
+ * @n: value to check
  *
  * Return: nothing
  */
