@@ -12,7 +12,7 @@ void more_numbers(void)
 
 	for (PEPE1 = 0; PEPE1 < 10; PEPE1++)
 	{
-		for (PEPE2 = 0; PEPE2 < 14; PEPE++)
+		for (PEPE2 = 0; PEPE2 < 14; PEPE2++)
 		{
 			_putchar(PEPE);
 		}
