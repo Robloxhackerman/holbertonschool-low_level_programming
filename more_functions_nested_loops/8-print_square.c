@@ -14,11 +14,14 @@ void print_square(int size)
 	
 	for (PEPE1 = 0; size > PEPE1; PEPE1++)
 	{
-		while ((PEPE2 = 0) < size)
+		for (PEPE2 = 0; PEPE2 < size; PEPE2++)
 		{
 			_putchar('#');
-			PEPE2++;
 		}
-		_putchar('\n');
+		if (PEPE1 != size -1)
+		{
+			_putchar('\n');
+		}
 	}
+	_putchar('\n');
 }
