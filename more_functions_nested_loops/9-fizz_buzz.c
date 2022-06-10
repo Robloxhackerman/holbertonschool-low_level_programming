@@ -6,7 +6,7 @@
  *
  * Return: 
  */
-void pepe(void)
+void pepe()
 {
 	int PEPE;
 
@@ -29,4 +29,5 @@ void pepe(void)
 			printf("%d", PEPE);
 		}
 	}
+	printf("\n");
 }
