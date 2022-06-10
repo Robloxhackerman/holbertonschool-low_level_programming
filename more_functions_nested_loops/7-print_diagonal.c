@@ -2,7 +2,9 @@
 #include "main.h"
 
 /**
- * print_diagonal
+ * print_diagonal - draws a diagonal line
+ *
+ * @n: times
  *
  * Return: nothing
  */
