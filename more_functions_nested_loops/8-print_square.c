@@ -14,7 +14,7 @@ void print_square(int size)
 	
 	for (PEPE1 = 0; size > PEPE1; PEPE1++)
 	{
-		while ((PEPE = 0) < size)
+		while ((PEPE2 = 0) < size)
 		{
 			_putchar('#');
 		}
