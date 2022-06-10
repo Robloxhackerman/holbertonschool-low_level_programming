@@ -12,7 +12,7 @@ void print_diagonal(int n)
 
 	for (PEPE1 = 0; n < PEPE1; PEPE1++)
 	{
-		for (PEPE2 = 0; n < PEPE2; PEPE2++)
+		for (PEPE2 = 0; PEPE2 < PEPE1; PEPE2++)
 		{
 			_putchar(' ');
 		}
