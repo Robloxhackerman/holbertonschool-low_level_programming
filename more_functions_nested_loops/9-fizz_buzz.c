@@ -6,7 +6,7 @@
  *
  * Return: 
  */
-void pepe()
+int main(void)
 {
 	int PEPE;
 
