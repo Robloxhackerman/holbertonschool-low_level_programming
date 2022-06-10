@@ -15,6 +15,7 @@ void print_most_numbers(void)
 		if (PEPE != 50 || PEPE != 52)
 		{
 			_putchar(PEPE);
+			PEPE++;
 		}
 		else
 		{
