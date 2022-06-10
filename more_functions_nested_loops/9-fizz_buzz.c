@@ -14,19 +14,19 @@ int main(void)
 	{
 		if ((PEPE % 3) == 0)
 		{
-			printf("Fizz");
+			printf(" Fizz");
 		}
 		else if ((PEPE % 5) == 0)
 		{
-			printf("Buzz");
+			printf(" Buzz");
 		}
 		else if ((PEPE % 3) == 0 && (PEPE % 5) == 0)
 		{
-			printf("Fizz Buzz");
+			printf(" FizzBuzz");
 		}
 		else
 		{
-			printf("%d", PEPE);
+			printf(" %d", PEPE);
 		}
 	}
 	printf("\n");
