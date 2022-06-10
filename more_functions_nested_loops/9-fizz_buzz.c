@@ -11,7 +11,7 @@ int main(void)
 	int PEPE;
 	
 	printf("1");
-	printf(" 2")
+	printf(" 2");
 
 	for (PEPE = 2; PEPE < 100; PEPE++)
 	{
