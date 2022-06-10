@@ -4,12 +4,12 @@
 /**
  * main - pepe
  *
- * Return: 
+ * Return: nothing
  */
 int main(void)
 {
 	int PEPE;
-	
+
 	printf("1");
 	printf(" 2");
 
