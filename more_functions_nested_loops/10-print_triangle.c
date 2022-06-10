@@ -17,13 +17,14 @@ void print_triangle(int size)
 		{
 			_putchar(' ');
 		}
-		for (PEPE2--; PEPE2 < size; PEPE2++)
+		for (PEPE2--; size < PEPE2; PEPE2++)
 		{
 			_putchar(35);
 		}
 		if (PEPE1 < (size - 1))
 		{
-			_putchar('\n');}
+			_putchar('\n');
+		}
 	}
 	_putchar('\n');
 }
