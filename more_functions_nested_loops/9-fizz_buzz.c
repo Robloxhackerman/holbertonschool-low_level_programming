@@ -29,5 +29,5 @@ void pepe(void)
 			printf("%d", PEPE);
 		}
 	}
-	_putchar('\n');
+	printf('\n');
 }
