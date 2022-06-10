@@ -10,7 +10,7 @@ void print_diagonal(int n)
 {
 	int PEPE1, PEPE2;
 
-	for (PEPE1 = 0; n < PEPE1; PEPE1++)
+	for (PEPE1 = 0; n > PEPE1; PEPE1++)
 	{
 		for (PEPE2 = 0; PEPE2 < PEPE1; PEPE2++)
 		{
