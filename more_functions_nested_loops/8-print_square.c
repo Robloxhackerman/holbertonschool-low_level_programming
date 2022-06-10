@@ -11,8 +11,8 @@
 void print_square(int size)
 {
 	int PEPE1, PEPE2;
-	
-	for (PEPE1 = 0; PEPE1 > size; PEPE1++)
+		
+	for (PEPE1 = 0; PEPE1 < size; PEPE1++)
 	{
 		for (PEPE2 = 0; PEPE2 < size; PEPE2++)
 		{
