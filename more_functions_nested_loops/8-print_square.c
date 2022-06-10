@@ -18,7 +18,7 @@ void print_square(int size)
 		{
 			_putchar('#');
 		}
-		if (PEPE1 < (size -1))
+		if (PEPE1 < (size - 1))
 		{
 			_putchar('\n');
 		}
