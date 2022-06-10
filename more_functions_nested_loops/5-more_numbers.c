@@ -8,11 +8,14 @@
  */
 void more_numbers(void)
 {
-	int PEPE;
+	int PEPE1, PEPE2;
 
-	for (PEPE = 0 ; PEPE <= 14; PEPE++)
+	for (PEPE1 = 0; PEPE1 < 10; PEPE1++)
 	{
-		_putchar(PEPE);
+		for (PEPE2 = 0; PEPE2 < 14; PEPE++)
+		{
+			_putchar(PEPE);
+		}
 	}
 	_putchar('\n');
 }
