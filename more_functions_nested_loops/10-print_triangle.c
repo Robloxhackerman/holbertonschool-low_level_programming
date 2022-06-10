@@ -11,9 +11,9 @@ void print_triangle(int size)
 {
 	int PEPE1, PEPE2;
 
-	for (PEPE1 = 0; PEPE1 < size; PEPE1++)
+	for (PEPE1 = 0; size > PEPE1; PEPE1++)
 	{
-		for (PEPE2 = 1; PEPE2 < (size - PEPE1); PEPE2++)
+		for (PEPE2 = 1;  (size - PEPE1) > PEPE2; PEPE2++)
 		{
 			_putchar(' ');
 		}
