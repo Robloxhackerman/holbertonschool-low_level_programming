@@ -8,11 +8,11 @@
  */
 void print_diagonal(int n)
 {
-	int PEPE;
+	int PEPE1, PEPE2;
 
-	for (PEPE = 0; n < PEPE; PEPE++)
+	for (PEPE1 = 0; n < PEPE1; PEPE1++)
 	{
-		for (PEPE = PEPE; n < PEPE; PEPE++)
+		for (PEPE2 = 0; n < PEPE2; PEPE2++)
 		{
 			_putchar(32);
 		}
