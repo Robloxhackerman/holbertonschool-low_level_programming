@@ -9,5 +9,9 @@
  */
 int _strlen(char *s)
 {
-	return (_strlen(*s));
+	int PEPE;
+
+	PEPE = _strlen(s)
+
+	return (PEPE);
 }
