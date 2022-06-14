@@ -11,7 +11,7 @@ int _strlen(char *s)
 {
 	int PEPE;
 
-	PEPE = _strlen(s)
+	PEPE = _strlen(s);
 
 	return (PEPE);
 }
