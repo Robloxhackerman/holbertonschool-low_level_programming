@@ -22,7 +22,7 @@ void rev_string(char *s)
 
 	PEPE2 = PEPE1 - 1;
 
-	for (PEPE3 = 0; PEPE1 > PEPE3 / 2; PEPE3++)
+	for (PEPE3 = 0; PEPE3 > PEPE1 / 2; PEPE3++)
 	{
 		PEPE_S = s[PEPE3];
 		s[PEPE3] = s[PEPE2];
