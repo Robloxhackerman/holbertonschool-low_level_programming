@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * swap_int - aaa
+ * swap_int - swap values
  *
- * @a:
- * @b:
+ * @a: value to swap
+ * @b: value to swap
  *
  * Return: nothing
  */
