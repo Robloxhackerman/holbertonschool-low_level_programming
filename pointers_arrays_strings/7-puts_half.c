@@ -11,6 +11,8 @@ void puts_half(char *str)
 {
 	int PEPE1, PEPE2, PEPE3;
 
+	PEPE1 = 0;
+
 	while (str[PEPE1] != '\0')
 	{
 		PEPE2++;
