@@ -9,10 +9,11 @@
  */
 void rev_string(char *s)
 {
-	int PEPE1;
+	int PEPE1, PEPE2;
 	char PEPE_S;
 
 	PEPE1 = 0;
+	PEPE2 = 0;
 
 	while (s[PEPE1] != '\0')
 	{
@@ -21,7 +22,7 @@ void rev_string(char *s)
 
 	for (PEPE1 -= 1; PEPE1 >= 0; PEPE1--)
 	{
-		PEPE_S = s[PEPE1];
+		PEPE_S[PEPE2] = s[PEPE1];
 	}
 	*s = PEPE_S;
 }
