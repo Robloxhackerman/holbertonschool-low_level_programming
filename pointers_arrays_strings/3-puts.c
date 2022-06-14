@@ -9,5 +9,11 @@
  */
 void _puts(char *str)
 {
-	_puts(str);
+	int PEPE;
+
+	for (PEPE = 0; str[PEPE] != '\0'; PEPE++)
+	{
+		_putchar(str[PEPE]);
+	}
+	_putchar('\n');
 }
