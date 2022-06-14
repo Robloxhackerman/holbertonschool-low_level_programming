@@ -12,7 +12,7 @@ void swap_int(int *a, int *b)
 {
 	int PEPE;
 
-	*a = PEPE;
+	PEPE = *a;
 	*a = *b;
 	*b = PEPE;
 }
