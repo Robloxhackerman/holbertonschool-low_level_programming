@@ -23,6 +23,7 @@ void rev_string(char *s)
 	for (PEPE1 -= 1; PEPE1 >= 0; PEPE1--)
 	{
 		PEPE_S[PEPE2] = s[PEPE1];
+		PEPE++;
 	}
 	*s = PEPE_S;
 }
