@@ -19,7 +19,7 @@ void rev_string(char *s)
 		PEPE1++;
 	}
 
-	for (PEPE -= 1; PEPE >= 0; PEPE--)
+	for (PEPE1 -= 1; PEPE1 >= 0; PEPE1--)
 	{
 
 	}
