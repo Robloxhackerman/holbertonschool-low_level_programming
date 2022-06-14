@@ -16,7 +16,7 @@ void print_rev(char *s)
 		PEPE++;
 	}
 	
-	for(; PEPE >= 0; PEPE--)
+	for(PEPE -= 1; PEPE >= 0; PEPE--)
 	{
 		_putchar(s[PEPE]);
 	}
