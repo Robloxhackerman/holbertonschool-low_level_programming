@@ -9,18 +9,18 @@
  */
 void rev_string(char *s)
 {
-	int PEPE;
+	int PEPE1;
+	char PEPE_S;
 
 	PEPE = 0;
 
-	while (s[PEPE] != '\0')
+	while (s[PEPE1] != '\0')
 	{
-		PEPE++;
+		PEPE1++;
 	}
 
 	for (PEPE -= 1; PEPE >= 0; PEPE--)
 	{
-		_putchar(s[PEPE]);
+
 	}
-	_putchar('\n');
 }
