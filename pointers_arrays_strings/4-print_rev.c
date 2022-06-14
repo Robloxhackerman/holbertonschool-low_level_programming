@@ -11,6 +11,8 @@ void print_rev(char *s)
 {
 	int PEPE;
 
+	PEPE = 0;
+
 	while (s[PEPE] != '\0')
 	{
 		PEPE++;
