@@ -11,9 +11,9 @@ void puts2(char *str)
 {
 	int PEPE1, PEPE2;
 
-	PEPE1 = 0
+	PEPE1 = 0;
 
-	while (str[PEPE1 != '\0')
+	while (str[PEPE1] != '\0')
 	{
 		PEPE1++;
 	}
