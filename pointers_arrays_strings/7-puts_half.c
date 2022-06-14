@@ -9,27 +9,27 @@
  */
 void puts_half(char *str)
 {
-	int len, n, i;
+	int PEPE1, PEPE2, PEPE3;
 
-	len = 0;
+	PEPE1 = 0;
 
-	while (str[len] != '\0')
+	while (str[PEPE1] != '\0')
 	{
-		len++;
+		PEPE1++;
 	}
 
-	if (len % 2 == 0)
+	if (PEPE1 % 2 == 0)
 	{
-		for (i = len / 2; str[i] != '\0'; i++)
+		for (PEPE2 = PEPE1 / 2; str[PEPE2] != '\0'; PEPE2++)
 		{
-			_putchar(str[i]);
+			_putchar(str[PEPE2]);
 		}
 	} 
-	else if (len % 2)
+	else if (PEPE1 % 2)
 	{
-		for (n = (len - 1) / 2; n < len - 1; n++)
+		for (PEPE3 = (PEPE1 - 1) / 2; PEPE3 < PEPE1 - 1; PEPE3++)
 		{
-			_putchar(str[n + 1]);
+			_putchar(str[PEPE3 + 1]);
 		}
 	}
 	_putchar('\n');
