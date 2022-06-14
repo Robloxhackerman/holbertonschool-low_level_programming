@@ -9,12 +9,18 @@
  */
 void puts2(char *str)
 {
-	int PEPE;
+	int PEPE1, PEPE2;
 
-	for (PEPE = 0; str[PEPE] != '\0'; PEPE++)
+	PEPE1 = 0
+
+	while (str[PEPE1 != '\0')
 	{
-		_putchar(str[PEPE]);
-		PEPE++;
+		PEPE1++;
+	}
+	for (PEPE2 = 0; PEPE1 > PEPE2 ; PEPE2++)
+	{
+		_putchar(str[PEPE2]);
+		PEPE2++;
 	}
 	_putchar('\n');
 }
