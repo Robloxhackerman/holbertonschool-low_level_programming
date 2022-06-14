@@ -22,6 +22,7 @@ void rev_string(char *s)
 	for (PEPE1 -= 1; PEPE1 >= 0; PEPE1--)
 	{
 		PEPE_S = s[PEPE1];
-		*s = PEPE_S;
+		*s = PEPE_S[PEPE1--];
+
 	}
 }
