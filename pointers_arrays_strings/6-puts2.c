@@ -17,7 +17,7 @@ void puts2(char *str)
 	{
 		PEPE1++;
 	}
-	for (PEPE2 = 0; PEPE1 > PEPE2 ; PEPE2++)
+	for (PEPE2 = 0; PEPE2 < PEPE1 ; PEPE2++)
 	{
 		_putchar(str[PEPE2]);
 		PEPE2++;
