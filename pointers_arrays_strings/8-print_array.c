@@ -13,7 +13,7 @@ void print_array(int *a, int n)
 {
 	int PEPE;
 
-	for (PEPE = 0; PEPE < n; PEPE++)
+	for (PEPE = 0; n > PEPE; PEPE++)
 	{
 		if (PEPE == 0)
 		{
