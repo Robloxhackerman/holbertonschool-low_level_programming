@@ -24,10 +24,10 @@ void puts_half(char *str)
 		{
 			_putchar(str[PEPE2]);
 		}
-	} 
+	}
 	else if (PEPE1 % 2)
 	{
-		for (PEPE3 = (PEPE1 - 1) / 2; PEPE3 < PEPE1 - 1; PEPE3++)
+		for (PEPE3 = (PEPE1 - 1) / 2; PEPE1 - 1 > PEPE3; PEPE3++)
 		{
 			_putchar(str[PEPE3 + 1]);
 		}
