@@ -3,8 +3,8 @@
 /**
  * _strcpy - copies the string pointed to by src
  *
- * @dest
- * @src
+ * @dest: string
+ * @src: string
  *
  * Return: nothing
  */
