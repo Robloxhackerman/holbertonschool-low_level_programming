@@ -15,7 +15,14 @@ void print_array(int *a, int n)
 
 	for (PEPE = 0; PEPE < n; PEPE++)
 	{
-		printf("%d", a[PEPE]);
+		if (PEPE == 0)
+		{
+			printf("%d", a[PEPE]);
+		}
+		else
+		{
+			printf(", %d", a[PEPE]);
+		}
 	}
 	printf("\n");
 }
