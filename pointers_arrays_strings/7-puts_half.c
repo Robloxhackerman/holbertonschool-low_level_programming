@@ -15,12 +15,21 @@ void puts_half(char *str)
 
 	while (str[PEPE1] != '\0')
 	{
-		PEPE2++;
+		PEPE1++;
 	}
-	
-	for (PEPE3 = (PEPE2 / 2); PEPE3 >= PEPE2; PEPE3++)
+	if (PEPE1 % 2 == 0)
 	{
-		_putchar(str[PEPE3]);
+		for (PEPE2 = (PEPE1 / 2); PEPE2 >= PEPE1; PEPE2++)
+		{
+			_putchar(str[PEPE2]);
+		}
+	}
+	else if (PEPE1 % 2)
+	{
+		for (PEPE3 = (PEPE1 - 1) / 2; PEPE3 < PEPE1 -1; PEPE3++)
+		{
+			_putchar(str[PEPE3 + 1]);
+		}
 	}
 	_putchar('\n');
 }
