@@ -23,7 +23,7 @@ char *_strncat(char *dest, char *src, int n)
 	while (src[PEPE2] != '\0' && PEPE2 < n)
 	{
 		dest[PEPE1] = src[PEPE2];
-		PEPE1++;	
+		PEPE1++;
 		PEPE2++;
 	}
 
