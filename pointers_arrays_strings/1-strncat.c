@@ -10,19 +10,20 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int PEPE1 = 0, j = 0;
+	int PEPE1, PEPE2;
 
+	PEPE1 = 0;
 
 	while (dest[PEPE1])
 	{
 		PEPE1++;
 	}
 
-	while (j < n && src[j])
+	while (PEPE2 < n && src[PEPE2])
 	{
-		dest[PEPE1] = src[j];
+		dest[PEPE1] = src[PEPE2];
 		PEPE1++;	
-		j++;
+		PEPE2++;
 	}
 
 	dest[PEPE1 + n + 1] = '\0';
