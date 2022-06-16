@@ -13,20 +13,21 @@ char *_strncat(char *dest, char *src, int n)
 	int PEPE1, PEPE2;
 
 	PEPE1 = 0;
+	PEPE2 = 0;
 
-	while (dest[PEPE1])
+	while (dest[PEPE1] != '\0')
 	{
 		PEPE1++;
 	}
 
-	while (PEPE2 < n && src[PEPE2])
+	while (src[PEPE2] != '\0' && PEPE2 < n)
 	{
 		dest[PEPE1] = src[PEPE2];
 		PEPE1++;	
 		PEPE2++;
 	}
 
-	dest[PEPE1 + n + 1] = '\0';
+	dest[PEPE1] = '\0';
 
 	return (dest);
 }
