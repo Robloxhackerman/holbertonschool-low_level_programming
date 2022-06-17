@@ -10,14 +10,12 @@
  */
 void reverse_array(int *a, int n)
 {
-	int PEPE1, PEPE2, PEPE3;
+	int PEPE1, PEPE2;
 
-	PEPE2 = n;
-
-	for (PEPE1 = 0; PEPE1 <= n / 2; PEPE1++)
+	for (PEPE1 = 0; (n / 2) >= PEPE1; PEPE1++)
 	{
-		PEPE3 = a[PEPE1];
-		a[PEPE1] = a[PEPE2 - PEPE1 -1];
-		a[PEPE2 - PEPE1 - 1] = PEPE3;
+		PEPE2 = a[PEPE1];
+		a[PEPE1] = a[n - PEPE1 -1];
+		a[n - PEPE1 - 1] = PEPE2;
 	}
 }
