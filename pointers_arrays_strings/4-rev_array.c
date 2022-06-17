@@ -14,7 +14,7 @@ void reverse_array(int *a, int n)
 
 	PEPE2 = n - 1;
 
-	for (PEPE1 = 0; PEPE <= n / 2; PEPE1++)
+	for (PEPE1 = 0; PEPE1 <= n / 2; PEPE1++)
 	{
 		PEPE3 = a[PEPE1];
 		a[PEPE1] = a[PEPE2];
