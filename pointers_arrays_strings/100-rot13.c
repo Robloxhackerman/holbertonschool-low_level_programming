@@ -3,7 +3,7 @@
 /**
  * rot13 - encode a tring in rot13
  *
- * @PEPEIN: string to encode
+ * @PEPIN: string to encode
  *
  * Return: string encoded
  */
