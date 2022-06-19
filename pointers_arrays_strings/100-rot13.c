@@ -7,7 +7,7 @@
  *
  * Return: string encoded
  */
-char *rot13(char *)
+char *rot13(char *PEPIN)
 {
 	int PEPE1, PEPE2;
 	char PEPE_C1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
