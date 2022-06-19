@@ -5,7 +5,7 @@
  *
  * @PEPIN: string
  *
- * Return: capitalized string
+ * Return: capi. string
  */
 char *cap_string(char *PEPIN)
 {
