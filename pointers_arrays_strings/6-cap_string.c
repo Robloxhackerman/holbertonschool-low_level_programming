@@ -9,7 +9,7 @@
  */
 char *cap_string(char *PEPI)
 {
-	int PEP1, PEP2;
+	int PEPE1, PEPE2;
 	char PEPE_C[13] = {' ', '\n', '\t', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 
 	for (PEPE1 = 0; PEPI[PEPE1] != '\0'; PEPE1++)
