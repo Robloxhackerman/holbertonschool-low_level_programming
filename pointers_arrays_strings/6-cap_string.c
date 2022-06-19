@@ -25,7 +25,7 @@ char *cap_string(char *PEPIN)
 			{
 				if(PEPIN[PEPE1 + 1] >= 97 && PEPIN[PEPE1 + 1] <= 122)
 				{
-					PEPIN[PEPE1] = PEPIN[PEPE1 + 1] - 32;
+					PEPIN[PEPE1 + 1] = PEPIN[PEPE1 + 1] - 32;
 				}
 			}
 		}
