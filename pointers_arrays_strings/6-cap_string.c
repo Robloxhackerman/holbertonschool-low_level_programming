@@ -10,7 +10,7 @@
 char *cap_string(char *PEPIN)
 {
 	int PEPE1, PEPE2;
-	char PEPE_C[13] = {' ', '\n', '\t', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+	
 
 	for (PEPE1 = 0; PEPIN[PEPE1] != '\0'; PEPE1++)
 	{
