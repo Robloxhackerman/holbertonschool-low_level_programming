@@ -18,7 +18,7 @@ char *cap_string(char *PEPIN)
 		{
 			PEPIN[PEPE1] = PEPIN[PEPE1] - 32;
 		}
-		for (PEPE2 = 0; PEPE2 < 13 ; PEPE++)
+		for (PEPE2 = 0; PEPE2 < 13 ; PEPE2++)
 		{
 		}
 	}
