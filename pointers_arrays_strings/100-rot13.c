@@ -10,8 +10,8 @@
 char *rot13(char *PEPIN)
 {
 	int PEPE1, PEPE2;
-	char PEPE_C1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char PEPE_C2 = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char *PEPE_C1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char *PEPE_C2 = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (PEPE1 = 0; PEPIN[PEPE1] != '\0'; PEPE1++)
 	{
