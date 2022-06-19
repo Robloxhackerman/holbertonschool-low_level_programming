@@ -9,7 +9,7 @@
  */
 void print_number(int n)
 {
-	int PEPE;
+	unsigned int PEPE;
 
 	if (n < 0)
 	{
