@@ -29,5 +29,5 @@ char *cap_string(char *PEPI)
 			}
 		}
 	}
-	return (PEPIN);
+	return (PEPI);
 }
