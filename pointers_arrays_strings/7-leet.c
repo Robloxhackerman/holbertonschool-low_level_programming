@@ -10,8 +10,8 @@
 char *leet(char *PEPIN)
 {
 	int PEPE1, PEPE2;
-	char PEPE_C1[10] = {'A','E','O','T','L','a','e','o','t','l'};
-	char PEPE_C2[10] = {'4','3','0','7','1','4','3','0','7','1'};
+	char PEPE_C1[10] = {'A', 'E', 'O', 'T', 'L', 'a', 'e', 'o', 't', 'l'};
+	char PEPE_C2[10] = {'4', '3', '0', '7', '1', '4', '3', '0', '7', '1'};
 
 	for (PEPE1 = 0; PEPIN[PEPE1] != '\0'; PEPE1++)
 	{
