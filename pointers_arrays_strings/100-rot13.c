@@ -20,6 +20,7 @@ char *rot13(char *PEPIN)
 			if (PEPIN[PEPE1] == PEPE_C1[PEPE2])
 			{
 				PEPIN[PEPE1] = PEPE_C2[PEPE2];
+				break;
 			}
 		}
 	}
