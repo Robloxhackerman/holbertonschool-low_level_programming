@@ -24,7 +24,7 @@ char *cap_string(char *PEPI)
 			{
 				if (PEPI[PEPE1 + 1] >= 97 && PEPI[PEPE1 + 1] <= 122)
 				{
-					PEPI[PEPE1 + 1] =- 32;
+					PEPI[PEPE1 + 1] -= 32;
 				}
 			}
 		}
