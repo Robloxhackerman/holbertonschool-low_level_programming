@@ -29,7 +29,7 @@ int _pepenaso(char *s)
 }
 
 /**
- * check_pal - checks the characters recursively for palindrome
+ * _pepenasato - checks the characters recursively for palindrome
  *
  * @s: string to check
  * @i: iterator
