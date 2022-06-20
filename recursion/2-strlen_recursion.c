@@ -5,7 +5,7 @@
  *
  * @s: string to check
  *
- * @Return: lenght
+ * Return: lenght
  */
 int _strlen_recursion(char *s)
 {
