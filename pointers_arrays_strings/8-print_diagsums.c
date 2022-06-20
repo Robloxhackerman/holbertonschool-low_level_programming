@@ -6,7 +6,7 @@
  * a square matrix of integers
  *
  * @a: a
- * @size: size 
+ * @size: size
  *
  * Return: nothing
  */
@@ -19,7 +19,7 @@ void print_diagsums(int *a, int size)
 	PEPE2 = 0;
 	PEPE3 = 0;
 
-	for (PEPE1 = 0; PEPE1 < size; PEPE1++)
+	for (PEPE1 = 0; size > PEPE1; PEPE1++)
 	{
 		PEPE2 += a[(size * PEPE1) + PEPE1];
 		PEPE3 += a[(size * (PEPE1 + 1)) - (PEPE1 + 1)];
