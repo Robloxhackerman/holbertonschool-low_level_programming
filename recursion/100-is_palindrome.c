@@ -1,61 +1,47 @@
 #include "main.h"
 
 /**
- * is_palindrome - states if a string is a palindrome
+ * is_palindrome - checks if a string is a palindrome
  *
  * @s: string to check
  *
- * Return: 1 if palindrome, 0 if not
+ * Return: 1 if it is, 0 it's not
  */
 int is_palindrome(char *s)
 {
-	int i;
-
-	i = _strlen(s) - 1;
-
-	return (_pepenasote(0, i, s));
-}
-
-/**
- * _peponaso - return length of string
- *
- * @str: string to check
- *
- * Return: length of str
- */
-int _pepenaso(char *str)
-{
-	if (*str == '\0')
-	{
-		return (0);
-	}
-	else
-	{
-		return (1 + _pepenaso(str + 1));
-	}
-}
-
-/**
- * _pepenasote - checks to see if a string is a palindrome
- * 
- * @a: int
- * @b: int
- * @c: char
- *
- * Return: 1 if palindrome 0 if not
- */
-int _pepenasote(int a, int b, char *c)
-{
-	if (a >= b)
-	{
+	if (*s == 0)
 		return (1);
-	}
-	else if (c[a] != c[b])
-	{
+	return (_pepenasato(s, 0, _pepenaso(s)));
+}
+
+/**
+ * _pepenaso - returns the length of a string
+ * 
+ * @s: string to check
+ *
+ * Return: length of the string
+ */
+int _pepenaso(char *s)
+{
+	if (*s == '\0')
 		return (0);
-	}
-	else
-	{
-		return (_pepenasote(a + 1, b - 1, c));
-	}
+	return (1 + _pepenaso(s + 1));
+}
+
+/**
+ * check_pal - checks the characters recursively for palindrome
+ * 
+ * @s: string to check
+ * @i: iterator
+ * @len: length of the string
+ *
+ * Return: 1 if palindrome, 0 if not
+ */
+int _pepenasato(char *s, int i, int len)
+{
+	if (*(s + i) != *(s + len - 1))
+		return (0);
+	if (i >= len)
+		return (1);
+	return (_pepenesato(s, i + 1, len - 1));
 }
