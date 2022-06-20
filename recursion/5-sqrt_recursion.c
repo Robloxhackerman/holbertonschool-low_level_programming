@@ -20,8 +20,8 @@ int _sqrt_recursion(int n)
 /**
  * _pepon - recurse to find the square root
  *
- * @n:
- * @i:
+ * @n: int
+ * @i: int
  *
  * Return: square root
  */
@@ -31,10 +31,10 @@ int _pepon(int n, int i)
 
 	PEPE = i * i;
 
-	if (PEPE == n)
+	if (n == PEPE)
 	{
 		return (i);
 	}
 
-	return (_pepon(n, i +1));
+	return (_pepon(n, i + 1));
 }
