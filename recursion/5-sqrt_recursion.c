@@ -13,11 +13,6 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-	if (n == 0)
-	
-	{
-		return (0);
-	}
 
 	return (_pepon(n, 1));
 }
@@ -32,7 +27,14 @@ int _sqrt_recursion(int n)
  */
 int _pepon(int n, int i)
 {
-	n = i * i;
+	int PEPE;
+
+	PEPE = i * i;
+
+	if (PEPE == n)
+	{
+		return (i);
+	}
 
 	return (_pepon(n, i +1));
 }
