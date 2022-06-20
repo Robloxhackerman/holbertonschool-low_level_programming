@@ -16,7 +16,7 @@ int is_palindrome(char *s)
 
 /**
  * _pepenaso - returns the length of a string
- * 
+ *
  * @s: string to check
  *
  * Return: length of the string
@@ -30,7 +30,7 @@ int _pepenaso(char *s)
 
 /**
  * check_pal - checks the characters recursively for palindrome
- * 
+ *
  * @s: string to check
  * @i: iterator
  * @len: length of the string
