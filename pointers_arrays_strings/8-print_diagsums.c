@@ -25,5 +25,5 @@ void print_diagsums(int *a, int size)
 		PEPE3 += a[(size * (PEPE1 + 1)) - (PEPE1 + 1)];
 	}
 
-	printf("%d, %d\n", PEEP1, PEPE2);
+	printf("%d, %d\n", PEPE2, PEPE3);
 }
