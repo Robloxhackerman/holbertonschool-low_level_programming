@@ -3,7 +3,9 @@
 /**
  * _memcpy - copies memory area
  *
- * @
+ * @dest: dest of copy
+ * @src: memory to copy
+ * n: num of bytes to copy
  *
  * Return:
  */
