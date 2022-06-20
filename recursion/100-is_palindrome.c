@@ -43,5 +43,5 @@ int _pepenasato(char *s, int i, int len)
 		return (0);
 	if (i >= len)
 		return (1);
-	return (_pepenesato(s, i + 1, len - 1));
+	return (_pepenasato(s, i + 1, len - 1));
 }
