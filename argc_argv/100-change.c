@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		for (PEPE1 = 0; PEPE1 < 5; PEPE1++)
+		for (PEPE1 = 0; PEPE1 < PEPE_A[]; PEPE1++)
 		{
 			if (PEPE_1 >= PEPE_A[PEPE1])
 			{
