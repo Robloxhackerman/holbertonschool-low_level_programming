@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
 	for (PEPE = 0; PEPE < argc; PEPE++)
 	{
-		printf("%s\n", argv);
+		printf("%s\n", *argv[PEPE]);
 	}
 
 	return (0);
