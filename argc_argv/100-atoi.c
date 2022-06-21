@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _atoi - converts a string to an integer
@@ -39,33 +38,4 @@ int _atoi(char *s)
 	if (f == 0)
 		return (0);
 	return (n);
-}
-
-/**
- * main - multiplies 2 numbers
- *
- * @argc: num of args
- * @argv: args
- *
- * Return: 0 (success), 1 (very bad)
- */
-int main(int argc, char *argv[])
-{
-	int PEPE1, PEPE2, PEPE_R;
-
-	if (argc > 3 || argc < 3)
-	{
-		printf("Error\n");
-		return (1);
-	}
-	else
-	{
-		PEPE1 = _atoi(argv[1]);
-		PEPE2 = _atoi(argv[2]);
-		PEPE_R = PEPE1 * PEPE2;
-
-		printf("%d\n", PEPE_R);
-
-		return (0);
-	}
 }
