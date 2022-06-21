@@ -21,6 +21,7 @@ int main(int argc, char *argv[])
 	}
 	
 	PEPE_1 = atoi(argv[1]);
+	PEPE_2 = 0;
 	
 	if (PEPE_1 <= 0)
 	{
