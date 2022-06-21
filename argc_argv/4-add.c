@@ -25,7 +25,8 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	
+	PEPE_R = 0;
+
 	for (PEPE1 = 0; argc > PEPE1; PEPE1++)
 	{
 		PEPE_R = atoi(argv[PEPE1]);
