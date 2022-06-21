@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
 
 	for (PEPE1 = 0; argc < PEPE1; PEPE1++)
 	{
-		PEPE = atoi(argv[PEPE])
+		PEPE = atoi(argv[PEPE]);
 		
 		if (PEPE >= 0)
 		{
