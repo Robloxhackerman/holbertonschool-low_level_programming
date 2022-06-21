@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 		{
 			if (PEPE_1 >= PEPE_A[PEPE1])
 			{
-				PEPE_1 = PEPE_1 / PEPE_[PEPE1];
+				PEPE_1 = PEPE_1 / PEPE_A[PEPE1];
 				PEPE_2++;
 			}
 			else
