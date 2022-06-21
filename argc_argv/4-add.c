@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 {
 	int PEPE1, PEPE2, PEPE_R;
 
-	for (PEPE1 = 1; argc < PEPE1; PEPE1++)
+	for (PEPE1 = 1; argc > PEPE1; PEPE1++)
 	{
 		for (PEPE2 = 0; argv[PEPE1][PEPE2]; PEPE2++)
 		{
