@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		PEPE = argv[1] * argv[2];
+		PEPE = *argv[1] * *argv[2];
 	}
 
 	return (0);
