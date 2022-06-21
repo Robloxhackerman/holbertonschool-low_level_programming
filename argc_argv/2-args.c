@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int PEPE;
 
-	for (PEPE = 0; PEPE < argc; PEPE++)
+	for (PEPE = 0; argc < PEPE; PEPE++)
 	{
 		printf("%s\n", argv[PEPE]);
 	}
