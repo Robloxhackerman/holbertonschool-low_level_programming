@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 	for (PEPE1 = 0; argc < PEPE1; PEPE1++)
 	{
-		for (PEPE2 = 0; argv[PEPE1][PEPE2]; PEPE2++;)
+		for (PEPE2 = 0; argv[PEPE1][PEPE2]; PEPE2++)
 		{
 			if (isdigit(argv[PEPE1][PEPE2]) == 0)
 			{
