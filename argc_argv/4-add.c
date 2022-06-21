@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 
 	for (PEPE1 = 1; argc > PEPE1; PEPE1++)
 	{
-		PEPE_R = atoi(argv[PEPE1]);
+		PEPE_R = PEPE_R + atoi(argv[PEPE1]);
 	}
 
 	printf("%d\n", PEPE_R);
