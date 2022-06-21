@@ -37,7 +37,9 @@ int main(int argc, char *argv[])
 				PEPE_2++;
 			}
 			else
+			{
 				PEPE1++;
+			}
 		}
 	}
 	
