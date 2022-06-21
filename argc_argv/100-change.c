@@ -35,10 +35,12 @@ int main(int argc, char *argv[])
 			{
 				PEPE_1 = PEPE_1 / PEPE_A[PEPE1];
 				PEPE_2++;
+				break;
 			}
 			else
 			{
 				PEPE1++;
+				break;
 			}
 		}
 	}
