@@ -11,45 +11,33 @@
  */
 char *argstostr(int ac, char **av)
 {
-	int PEPE1, PEPE2, PEPE3, PEPE4;
-	char *PEPE_A;
-
-	PEPE4 = 0;
+	char *s;
+	int a, b, c, d;
 
 	if (ac == 0)
-	{
 		return (NULL);
-	}
 	if (av == 0)
-	{
 		return (NULL);
-	}
-
-	for(PEPE1 = 0; ac > PEPE1; PEPE1++)
+	a = 0;
+	for (b = 0; b < ac; b++)
 	{
-		for (PEPE2 = 0; av[PEPE1][PEPE2] != '\0'; PEPE2++)
-		{
-			PEPE3++;
-		}
-		PEPE3++;
+		for (c = 0; av[b][c] != '\0'; c++)
+			a++;
+		a++;
 	}
-
-	PEPE_A = malloc(sizeof(char) * (PEPE3 + 1));
-
-	if (PEPE_A == NULL)
-	{
+	a++;
+	s = malloc(a * sizeof(char));
+	if (s == 0)
 		return (NULL);
-	}
-	for (PEPE1 = 0; ac > PEPE1; PEPE1++)
+	d = 0;
+	for (b = 0; b < ac; b++)
 	{
-		for (PEPE2 = 0; av[PEPE1][PEPE2] != '\0'; PEPE2++)
+		for (c = 0; av[b][c] != '\0'; c++)
 		{
-			PEPE_A[PEPE4] = av[PEPE1][PEPE2];
-			PEPE4++;
+			s[d++] = av[b][c];
 		}
-		PEPE_A[PEPE4] = '\n';
-		PEPE4++;
+		s[d++] = '\n';
 	}
-
-	return (PEPE_A);
+	s[d] = '\0';
+	return (s);
 }
