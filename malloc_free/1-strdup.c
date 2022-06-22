@@ -5,9 +5,9 @@
  * _strdup - returns a pointer to a newly allocated space
  * in memory
  *
- * @str:
+ * @str: string to copy
  *
- * Return: 
+ * Return: pointer to duplicated strinf, null if error
  */
 char *_strdup(char *str)
 {
@@ -33,7 +33,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	for (PEPE2 = 0; PEPE2 < PEPE1; PEPE2++)
+	for (PEPE2 = 0; PEPE2 <= PEPE1; PEPE2++)
 	{
 		PEPE_A[PEPE2] = str[PEPE2];
 	}
