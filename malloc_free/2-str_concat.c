@@ -57,10 +57,12 @@ char *str_concat(char *s1, char *s2)
 		while (s1[PEPE4] != '\n')
 		{
 			PEPE_A[PEPE4] = s1[PEPE4];
+			PEPE4++;
 		}
 		while (s2[PEPE4] != '\n')
 		{
 			PEPE_A[PEPE4] = s2[PEPE4];
+			PEPE4++;
 		}
 	}
 
