@@ -42,5 +42,6 @@ char *str_concat(char *s1, char *s2)
 			PEPE_A[PEPE4] = s2[PEPE4];
 		}
 	}
-}
 
+	return (PEPE_A);
+}
