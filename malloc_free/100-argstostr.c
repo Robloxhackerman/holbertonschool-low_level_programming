@@ -56,6 +56,6 @@ char *argstostr(int ac, char **av)
 		PEPE_A[PEPE4++] = '\n';
 	}
 	
-	s[PEPE4] = '\0';
+	PEPE_A[PEPE4] = '\0';
 	return (PEPE_A);
 }
