@@ -12,14 +12,11 @@
 int **alloc_grid(int width, int height)
 {
 	int PEPE1, PEPE2;
+	int PEPE_A[][];
 
 	if (width <= 0 || height <= 0)
 	{
 		return (NULL);
-	}
-	else
-	{
-		int PEPE_A[height][width];
 	}
 
 	for (PEPE1 = 0; PEPE1 < height; PEPE1++)
