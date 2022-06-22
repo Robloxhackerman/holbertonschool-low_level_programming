@@ -20,7 +20,7 @@ char *str_concat(char *s1, char *s2)
 		s1 = "";
 	else
 	{
-		while (s1[PEPE1] != ' ' || s1[PEPE1] == ' ')
+		while (s1[PEPE1])
 			PEPE1++;
 	}
 
