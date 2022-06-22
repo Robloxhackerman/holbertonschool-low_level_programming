@@ -19,7 +19,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 	PEPE_A = (int **)malloc(sizeof(int *) * height);
-	
+
 	if (PEPE_A == NULL)
 	{
 		return (NULL);
