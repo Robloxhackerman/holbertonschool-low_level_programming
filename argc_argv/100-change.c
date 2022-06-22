@@ -21,7 +21,6 @@ int main(int argc, char *argv[])
 	}
 	
 	PEPE_1 = atoi(argv[1]);
-	PEPE_2 = 0;
 	
 	if (PEPE_1 <= 0)
 	{
@@ -30,6 +29,8 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
+		PEPE_2 = 0;
+
 		for (PEPE1 = 0; PEPE1 < 7; PEPE1++)
 		{
 			if (PEPE_1 >= PEPE_A[PEPE1])
@@ -39,7 +40,7 @@ int main(int argc, char *argv[])
 			}
 			else
 			{
-				PEPE1++;
+				PEPE1 = PEPE1;
 			}
 		}
 	}
