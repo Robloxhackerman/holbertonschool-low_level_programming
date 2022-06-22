@@ -34,7 +34,7 @@ char *argstostr(int ac, char **av)
 		PEPE3++;
 	}
 
-	PEPE_A = malloc((sizeof(char)) * (PEPE3 + 1));
+	PEPE_A = malloc(sizeof(char) * (PEPE3 + 1));
 
 	if (PEPE_A == NULL)
 	{
@@ -48,6 +48,7 @@ char *argstostr(int ac, char **av)
 			PEPE4++;
 		}
 		PEPE_A[PEPE4] = '\n';
+		PEPE4++;
 	}
 
 	return (PEPE_A);
