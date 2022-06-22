@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		if (s1[PEPE4] != '\n')
 		{
-			PEPE_A[PEPE4] = s1[PEPE4]
+			PEPE_A[PEPE4] = s1[PEPE4];
 		}
 		else if (s2[PEPE4] != '\n')
 		{
