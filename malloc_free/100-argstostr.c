@@ -12,32 +12,50 @@
 char *argstostr(int ac, char **av)
 {
 	char *s;
-	int a, b, c, d;
+	int PEPE1, PEPE2, PEPE3, PEPE4;
 
 	if (ac == 0)
+	{
 		return (NULL);
+	}
 	if (av == 0)
-		return (NULL);
-	a = 0;
-	for (b = 0; b < ac; b++)
 	{
-		for (c = 0; av[b][c] != '\0'; c++)
-			a++;
-		a++;
+		return (NULL);
 	}
-	a++;
-	s = malloc(a * sizeof(char));
-	if (s == 0)
-		return (NULL);
-	d = 0;
-	for (b = 0; b < ac; b++)
+
+	PEPE1 = 0;
+
+	for (PEPE2 = 0; PEPE2 < ac; PEPE2++)
 	{
-		for (c = 0; av[b][c] != '\0'; c++)
+		for (PEPE3 = 0; av[PEPE2][PEPE3] != '\0'; PEPE3++)
 		{
-			s[d++] = av[b][c];
+			PEPE1++;
 		}
-		s[d++] = '\n';
+		
+		PEPE1++;
 	}
-	s[d] = '\0';
-	return (s);
+
+	PEPE1++;
+	
+	PEPE_A = malloc(sizeof(char) * PEPE1);
+	
+	if (PEPE_A == 0)
+	{
+		return (NULL);
+	}
+
+	PEPE4 = 0;
+	
+	for (PEPE2 = 0; PEPE2 < ac; PEPE2++)
+	{
+		for (PEPE3 = 0; av[PEPE2][PEPE3] != '\0'; PEPE3++)
+		{
+			PEPE_A[PEPE4++] = av[PEPE2][PEPE3];
+		}
+		
+		PEPE_A[PEPE4++] = '\n';
+	}
+	
+	s[PEPE4] = '\0';
+	return (PEPE_A);
 }
