@@ -17,25 +17,30 @@ char *str_concat(char *s1, char *s2)
 	PEPE1 = 0;
 	PEPE2 = 0;
 
-	while (s1[PEPE1])
-	{
-		PEPE1++;
-	}
-
-	while (s2[PEPE2])
-	{
-		PEPE2++;
-	}
-
 	if (s1 == NULL)
 	{
 		return (NULL);
 		PEPE1 = 0;
 	}
+	else
+	{
+		while (s1[PEPE1])
+		{
+			PEPE1++;
+		}
+	}
 
 	if (s2 == NULL)
 	{
 		return (NULL);
+		PEPE2 = 0;
+	}
+	else
+	{
+		while (s2[PEPE2])
+		{
+			PEPE2++;
+		}
 	}
 
 	PEPE3 = PEPE1 + PEPE2;
