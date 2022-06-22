@@ -22,30 +22,22 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-
 	PEPE1 = 0;
-
 	for (PEPE2 = 0; PEPE2 < ac; PEPE2++)
 	{
 		for (PEPE3 = 0; av[PEPE2][PEPE3] != '\0'; PEPE3++)
 		{
 			PEPE1++;
-		}
-		
+		}	
 		PEPE1++;
 	}
-
 	PEPE1++;
-	
 	PEPE_A = malloc(sizeof(char) * PEPE1);
-	
 	if (PEPE_A == 0)
 	{
 		return (NULL);
 	}
-
 	PEPE4 = 0;
-	
 	for (PEPE2 = 0; PEPE2 < ac; PEPE2++)
 	{
 		for (PEPE3 = 0; av[PEPE2][PEPE3] != '\0'; PEPE3++)
@@ -54,8 +46,7 @@ char *argstostr(int ac, char **av)
 		}
 		
 		PEPE_A[PEPE4++] = '\n';
-	}
-	
+	}	
 	PEPE_A[PEPE4] = '\0';
 	return (PEPE_A);
 }
