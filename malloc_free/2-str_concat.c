@@ -47,6 +47,11 @@ char *str_concat(char *s1, char *s2)
 	
 	PEPE_A = malloc((sizeof(char) * PEPE3) + 1);
 
+	if (PEPE_A = NULL)
+	{
+		return (NULL);
+	}
+
 	for (PEPE4 = 0; PEPE4 <= PEPE3; PEPE4++)
 	{
 		if (s1[PEPE4] != '\n')
