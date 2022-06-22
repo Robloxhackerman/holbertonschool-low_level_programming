@@ -4,28 +4,40 @@
 /**
  * alloc_grid - returns a pointer to a 2 dimensional array of integers
  *
- * @width: 
- * @height:
+ * @width: width
+ * @height: hieght
  *
- * Return:
+ * Return: array
  */
 int **alloc_grid(int width, int height)
 {
-	int PEPE1, PEPE2, PEPEH = 0, PEPEW = 0;
-	int *PEPE_A[PEPEH][PEPEW];
+	int PEPE1, PEPE2;
+	int **PEPE_A;
 
 	if (width <= 0 || height <= 0)
 	{
 		return (NULL);
 	}
-
+	PEPE_A = (int **)malloc(sizeof(int *) * height);
+	
+	if (PEPE_A == NULL)
+	{
+		return (NULL);
+	}
 	for (PEPE1 = 0; PEPE1 < height; PEPE1++)
 	{
+		PEPE_A[PEPE1] = (int *)malloc(sizeof(int) * width);
+		if (a[PEPE1] == NULL)
+		{
+			for (PEPE2 = 0; PEPE2 < PEPE1; PEPE2++)
+				free(PEPE_A[PEPE2]);
+			free(PEPE_A);
+			return (NULL);
+		}
 		for (PEPE2 = 0; PEPE2 < width; PEPE2++)
 		{
-			PEPE_A[PEPE1][PEPE2] = '0';
+			PEPE_A[PEPE1][PEPE2] = 0;
 		}
 	}
-
 	return (PEPE_A);
 }
