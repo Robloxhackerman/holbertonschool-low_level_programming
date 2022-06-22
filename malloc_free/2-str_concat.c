@@ -12,7 +12,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *PEPE_A;
-	unsigned int PEPE1, PEPE2;
+	unsigned int PEPE1, PEPE2, PEPE3;
 
 	PEPE1 = 0;
 	PEPE2 = 0;
