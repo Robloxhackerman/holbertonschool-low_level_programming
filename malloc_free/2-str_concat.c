@@ -45,7 +45,7 @@ char *str_concat(char *s1, char *s2)
 
 	PEPE3 = PEPE1 + PEPE2;
 	
-	PEPE_A = malloc(sizeof(char) * PEPE3);
+	PEPE_A = malloc((sizeof(char) * PEPE3) + 1);
 
 	for (PEPE4 = 0; PEPE4 <= PEPE3; PEPE4++)
 	{
