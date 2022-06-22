@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	PEPE_A = (sizeof(char) * size);
+	PEPE_A = malloc(sizeof(char) * size);
 
 	if (PEPE_A == NULL)
 	{
