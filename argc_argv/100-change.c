@@ -19,9 +19,9 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	
+
 	PEPE_1 = atoi(argv[1]);
-	
+
 	if (PEPE_1 <= 0)
 	{
 		printf("0\n");
@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 
 		for (PEPE1 = 0; PEPE1 < 7; PEPE1++)
 		{
-			if (PEPE_1 >= PEPE_A[PEPE1])
+			if (PEPE_A[PEPE1] <= PEPE_1)
 			{
 				PEPE_2 = PEPE_2 + (PEPE_1 / PEPE_A[PEPE1]);
 				PEPE_1 = PEPE_1 % PEPE_A[PEPE1];
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	
+
 	printf("%d\n", PEPE_2);
 	return (0);
 }
