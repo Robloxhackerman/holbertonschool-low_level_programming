@@ -20,8 +20,7 @@ char *str_concat(char *s1, char *s2)
 		s1 = "";
 	else
 	{
-		while (s1[PEPE1])
-			PEPE1++;
+		PEPE1 = sizeof(s1);
 	}
 
 	if (s2 == NULL)
