@@ -34,7 +34,7 @@ int **alloc_grid(int width, int height)
 			free(PEPE_A);
 			return (NULL);
 		}
-		for (PEPE2 = 0; PEPE2 < width; PEPE2++)
+		for (PEPE2 = 0; width < PEPE2; PEPE2++)
 		{
 			PEPE_A[PEPE1][PEPE2] = 0;
 		}
