@@ -54,11 +54,11 @@ char *str_concat(char *s1, char *s2)
 
 	for (PEPE4 = 0; PEPE4 <= PEPE3; PEPE4++)
 	{
-		if (s1[PEPE4] != '\n')
+		while (s1[PEPE4] != '\n')
 		{
 			PEPE_A[PEPE4] = s1[PEPE4];
 		}
-		else if (s2[PEPE4] != '\n')
+		while (s2[PEPE4] != '\n')
 		{
 			PEPE_A[PEPE4] = s2[PEPE4];
 		}
