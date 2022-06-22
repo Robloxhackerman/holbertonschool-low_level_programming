@@ -47,6 +47,8 @@ char *argstostr(int ac, char **av)
 			PEPE_A[PEPE4] = av[PEPE1][PEPE2];
 			PEPE4++;
 		}
+		PEPE_A[PEPE4] = '\n';
+		PEPE4++;
 	}
 
 	return (PEPE_A);
