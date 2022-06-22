@@ -11,8 +11,8 @@
  */
 char *argstostr(int ac, char **av)
 {
-	char *s;
 	int PEPE1, PEPE2, PEPE3, PEPE4;
+	char *PEPE_A;
 
 	if (ac == 0)
 	{
