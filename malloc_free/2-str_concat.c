@@ -27,8 +27,7 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	else
 	{
-		while (s2[PEPE2])
-			PEPE2++;
+		PEPE2 = sizeof(s2);
 	}
 	PEPE3 = PEPE1 + PEPE2;
 	PEPE_A = malloc((sizeof(char) * PEPE3) + 1);
