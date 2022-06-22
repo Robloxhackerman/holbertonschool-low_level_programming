@@ -32,7 +32,7 @@ char *str_concat(char *s1, char *s2)
 			PEPE2++;
 	}
 	PEPE3 = PEPE1 + PEPE2;
-	PEPE_A = malloc((sizeof(char) * PEPE3) + 1);
+	PEPE_A = malloc((PEPE1 * sizeof(*s1)) + (PEPE2 * sizeof(*s2)));
 	if (PEPE_A == NULL)
 		return (NULL);
 	for (PEPE4 = 0; PEPE4 <= PEPE3; PEPE4++)
