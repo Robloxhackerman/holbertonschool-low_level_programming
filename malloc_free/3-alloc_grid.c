@@ -27,7 +27,7 @@ int **alloc_grid(int width, int height)
 	for (PEPE1 = 0; PEPE1 < height; PEPE1++)
 	{
 		PEPE_A[PEPE1] = (int *)malloc(sizeof(int) * width);
-		if (a[PEPE1] == NULL)
+		if (PEPE_A[PEPE1] == NULL)
 		{
 			for (PEPE2 = 0; PEPE2 < PEPE1; PEPE2++)
 				free(PEPE_A[PEPE2]);
