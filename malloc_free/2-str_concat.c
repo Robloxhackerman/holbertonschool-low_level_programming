@@ -20,14 +20,16 @@ char *str_concat(char *s1, char *s2)
 		s1 = "";
 	else
 	{
-		PEPE1 = sizeof(s1);
+		while (s1[PEPE1])
+			PEPE1++;
 	}
 
 	if (s2 == NULL)
 		s2 = "";
 	else
 	{
-		PEPE2 = sizeof(s2);
+		while (s2[PEPE2])
+			PEPE2++;
 	}
 	PEPE3 = PEPE1 + PEPE2;
 	PEPE_A = malloc((sizeof(char) * PEPE3) + 1);
