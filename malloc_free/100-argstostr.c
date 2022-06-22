@@ -27,7 +27,7 @@ char *argstostr(int ac, char **av)
 
 	for(PEPE1 = 0; ac > PEPE1; PEPE1++)
 	{
-		for (PEPE2 = 0; av != '\0'; PEPE2++)
+		for (PEPE2 = 0; av[PEPE1][PEPE2] != '\0'; PEPE2++)
 		{
 			PEPE3++;
 		}
