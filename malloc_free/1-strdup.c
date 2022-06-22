@@ -26,7 +26,7 @@ char *_strdup(char *str)
 		PEPE1++;
 	}
 
-	PEPE_A = malloc(sizeof(char) * PEPE1);
+	PEPE_A = malloc((sizeof(char) * PEPE1) + 1);
 
 	if (PEPE_A == NULL)
 	{
