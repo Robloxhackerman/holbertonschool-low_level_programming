@@ -20,8 +20,11 @@ char *str_concat(char *s1, char *s2)
 		s1 = "";
 	else
 	{
-		while (s1[PEPE1] != '\0')
-			PEPE1++;
+		while (s1[PEPE1])
+			if (s1[PEPE1] == " ")
+				PEPE1 = PEPE1 + 1;
+			else
+				PEPE1++;
 	}
 
 	if (s2 == NULL)
