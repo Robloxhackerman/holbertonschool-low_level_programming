@@ -16,11 +16,11 @@ char *argstostr(int ac, char **av)
 
 	PEPE4 = 0;
 
-	if (ac == NULL)
+	if (ac == 0)
 	{
 		return (NULL);
 	}
-	if (av == NULL)
+	if (av == 0)
 	{
 		return (NULL);
 	}
