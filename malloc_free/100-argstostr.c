@@ -28,7 +28,7 @@ char *argstostr(int ac, char **av)
 		for (PEPE3 = 0; av[PEPE2][PEPE3] != '\0'; PEPE3++)
 		{
 			PEPE1++;
-		}	
+		}
 		PEPE1++;
 	}
 	PEPE1++;
@@ -44,9 +44,9 @@ char *argstostr(int ac, char **av)
 		{
 			PEPE_A[PEPE4++] = av[PEPE2][PEPE3];
 		}
-		
+
 		PEPE_A[PEPE4++] = '\n';
-	}	
+	}
 	PEPE_A[PEPE4] = '\0';
 	return (PEPE_A);
 }
