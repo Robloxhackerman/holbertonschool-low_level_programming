@@ -9,7 +9,7 @@
  *
  * Return:
  */
-ar *argstostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	int PEPE1, PEPE2, PEPE3, PEPE4;
 	char *PEPE_A;
