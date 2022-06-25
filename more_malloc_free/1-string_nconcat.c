@@ -34,7 +34,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		;
 	}
-	
+	PEPE1 = PEPE1 + 1;
 	if (n >= PEPE2)
 	{
 		PEPE_A = malloc(((PEPE1 + PEPE2 + 1) * sizeof(char)) + 5);
