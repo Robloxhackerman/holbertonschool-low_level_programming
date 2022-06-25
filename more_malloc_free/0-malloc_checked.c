@@ -12,7 +12,7 @@ void *malloc_checked(unsigned int b)
 {
 	int PEPE;
 
-	PEPE = maloc(sizeof(int) * b);
+	PEPE = malloc(sizeof(int) * b);
 
 	if (PEPE == 0);
 	{
