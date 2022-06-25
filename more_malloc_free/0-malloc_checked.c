@@ -10,7 +10,7 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	int PEPE;
+	void *PEPE;
 
 	PEPE = malloc(sizeof(int) * b);
 
