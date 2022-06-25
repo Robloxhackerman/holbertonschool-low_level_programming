@@ -13,7 +13,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *PEPE_A;
-	unsigned int PEPE1, PEPE2, PEPE3, d;
+	unsigned int PEPE1, PEPE2, PEPE3, PEPE4;
 
 	if (s1 == 0)
 	{
