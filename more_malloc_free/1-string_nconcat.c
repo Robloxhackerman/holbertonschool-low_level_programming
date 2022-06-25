@@ -13,7 +13,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *PEPE_A;
-	unsigned int PEPE1, PEPE2, c, d;
+	unsigned int PEPE1, PEPE2, PEPE3, d;
 
 	if (s1 == 0)
 	{
@@ -49,16 +49,17 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	}
 	
-	for (c = 0; c < PEPE1; c++)
+	for (PEPE3 = 0; PEPE3 < PEPE1; PEPE3++)
 	{
-		PEPE_A[c] = s1[c];
+		PEPE_A[PEPE3] = s1[PEPE3];
 	}
 	
-	for (d = 0; d < n && d < PEPE2; d++, c++)
+	for (PEPE4 = 0; PEPE4 < n && PEPE4 < PEPE2; PEPE4++)
 	{
-		PEPE_A[c] = s2[d];
+		PEPE_A[PEPE3] = s2[PEPE4];
+		PEPE3++;
 	}
 
-	PEPE_A[c] = '\0';
+	PEPE_A[PEPE3] = '\0';
 	return (PEPE_A);
 }
