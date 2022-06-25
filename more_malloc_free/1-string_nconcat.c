@@ -25,16 +25,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	
 	
-	while (s1[PEPE1])
-	{
-		PEPE1++;
-	}
+	for (PEPE1 = 0; s1[PEPE1] != '\0'; PEPE1++)
+		;
 	
 	for (PEPE2 = 0; s2[PEPE2] != '\0'; PEPE2++)
-	{
 		;
-	}
-	PEPE1 = PEPE1 + 1;
+	
 	if (n >= PEPE2)
 	{
 		PEPE_A = malloc(((PEPE1 + PEPE2 + 1) * sizeof(char)) + 5);
