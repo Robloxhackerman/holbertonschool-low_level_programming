@@ -25,9 +25,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	
 	
-	for (PEPE1 = 0; s1[PEPE1] != '\0'; PEPE1++)
+	while (s1[PEPE1] != '\0')
 	{
-		;
+		PEPE1++;
 	}
 	
 	for (PEPE2 = 0; s2[PEPE2] != '\0'; PEPE2++)
