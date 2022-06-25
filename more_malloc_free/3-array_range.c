@@ -12,7 +12,6 @@
 int *array_range(int min, int max)
 {
 	int PEPE_MN, PEPE_MX, PEPE1, PEPE2, PEPE3;
-	int PEPE_A1[max - min];
 	int *PEPE_A2;
 
 	PEPE_MN = min;
@@ -22,13 +21,15 @@ int *array_range(int min, int max)
 	{
 		return (NULL);
 	}
-
+	
+	PEPE2 = PEPE_MX - PEPE_MN;
+	int PEPE_A1[PEPE2];
+	
 	for (PEPE1 = 0; PEPE_MX <= PEPE_MN; PEPE1++)
 	{
 		PEPE_A1[PEPE1] = PEPE_MN;
 		PEPE_MN++;
 	}
-	PEPE2 = PEPE_MX - PEPE_MN;
 	PEPE_A2 = malloc(sizeof(int) * PEPE2);
 
 	if (PEPE_A2 == 0)
