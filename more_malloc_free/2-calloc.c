@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * _calloc - 
+ * _calloc - llocates memory for an array, using malloc
  *
- * @nmemb:
- * @size:
+ * @nmemb: members
+ * @size: size of bytes
  *
- * Return:
+ * Return: if malloc fail, null
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -32,7 +32,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		PEPE_A[PEPE] = 0;
 	}
-	
+
 	PEPE_AV = PEPE_A;
 	return (PEPE_AV);
 }
