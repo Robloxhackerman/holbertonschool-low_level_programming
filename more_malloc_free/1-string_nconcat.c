@@ -18,7 +18,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	PEPE1 = 0;
 	PEPE2 = 0;
 	
-	if (s1 == 0)i
+	if (s1 == 0)
 	{
 		s1 = "";
 	}
