@@ -12,7 +12,7 @@
 int *array_range(int min, int max)
 {
 	int PEPE_MN, PEPE_MX, PEPE1, PEPE2, PEPE3;
-	int PEPE_A1[];
+	int PEPE_A1[max - min];
 	int *PEPE_A2;
 
 	PEPE_MN = min;
