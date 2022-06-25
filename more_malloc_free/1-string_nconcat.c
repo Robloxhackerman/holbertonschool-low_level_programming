@@ -24,7 +24,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	else
 	{
-		while (s1[PEPE1])
+		while (s1[PEPE1] != '\0')
 			PEPE1++;
 	}
 	
@@ -34,7 +34,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	else
 	{
-		while (s2[PEPE2])
+		while (s2[PEPE2] != '\0')
 		{
 			PEPE2++;
 		}
