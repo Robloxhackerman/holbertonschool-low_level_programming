@@ -16,14 +16,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int PEPE1, PEPE2, PEPE3, PEPE4;
 
 	if (s1 == 0)
-	{
 		s1 = "";
-	}
+
 	if (s2 == 0)
-	{
 		s2 = "";
-	}
-	
 	
 	for (PEPE1 = 0; s1[PEPE1] != '\0'; PEPE1++)
 		;
@@ -41,14 +37,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	
 	if (PEPE_A == 0)
-	{
 		return (NULL);
-	}
 	
 	for (PEPE3 = 0; PEPE3 < PEPE1; PEPE3++)
-	{
 		PEPE_A[PEPE3] = s1[PEPE3];
-	}
 	
 	for (PEPE4 = 0; PEPE4 < n && PEPE4 < PEPE2; PEPE4++)
 	{
