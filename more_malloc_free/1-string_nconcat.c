@@ -39,8 +39,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			PEPE2++;
 		}
 	}
-		PEPE3 = PEPE1 + PEPE2;
-		PEPE_A = malloc(sizeof(char) * (PEPE3 + 1));
+	
+	PEPE3 = PEPE1 + n;
+	PEPE_A = malloc(sizeof(char) * (PEPE3 + 1));
+	
 	if (PEPE_A == NULL)
 	{
 		return (NULL);
