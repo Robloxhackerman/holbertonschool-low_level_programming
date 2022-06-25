@@ -4,9 +4,9 @@
 /**
  * malloc_checked - allocate memory using malloc
  *
- * @b:
+ * @b: size of memory
  *
- * Return:
+ * Return: if malloc fails, return 98
  */
 void *malloc_checked(unsigned int b)
 {
