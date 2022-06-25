@@ -12,6 +12,7 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *PEPE_A;
+	void *PEPE_AV;
 	unsigned int PEPE_1, PEPE;
 
 	if (nmemb == 0 || size == 0)
@@ -31,4 +32,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		PEPE_A[PEPE] = 0;
 	}
+	
+	PEPE_AV = PEPE_A;
+	return (PEPE_AV)
 }
