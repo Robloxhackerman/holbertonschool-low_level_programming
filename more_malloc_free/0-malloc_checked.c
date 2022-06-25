@@ -14,7 +14,7 @@ void *malloc_checked(unsigned int b)
 
 	PEPE = malloc(sizeof(int) * b);
 
-	if (PEPE == 0);
+	if (PEPE == 0)
 	{
 		exit(98);
 	}
