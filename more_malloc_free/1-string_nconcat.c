@@ -42,16 +42,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	
 	if ( n >= PEPE2)
 	{
-		PEPE2 = PEPE2;
+		PEPE3 = PEPE1 + PEPE2;
+		PEPE_A = malloc(sizeof(char) * (PEPE3 + 1);
 	}
 	else
 	{
-		PEPE2 = n;
+		PEPE3 = PEPE1 + n;
+		PEPE_A = malloc(sizeof(char) * (PEPE3 + 1);
 	}
-
-	PEPE3 = PEPE1 + PEPE2;
-	
-	PEPE_A = malloc((sizeof(char) * PEPE3) + 1);
 	
 	if (PEPE_A == NULL)
 	{
@@ -65,7 +63,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			PEPE_A[PEPE4] = s1[PEPE4];
 		}
 		
-		if (PEPE4 < PEPE2)
+		if (PEPE4 > PEPE1)
 		{
 			PEPE_A[PEPE4] = s2[PEPE4];
 		}
