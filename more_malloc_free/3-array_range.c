@@ -22,17 +22,17 @@ int *array_range(int min, int max)
 		return (NULL);
 	}
 	
-	PEPE2 = PEPE_MX - PEPE_MN;
-	PEPE_A = malloc(sizeof(int) * PEPE2 + 4);
+	PEPE1 = PEPE_MX - PEPE_MN;
+	PEPE_A = malloc(sizeof(int) * PEPE1 + 4);
 	
 	if (PEPE_A == 0)
 	{
 		return (NULL);
 	}
 	
-	for (PEPE1 = 0; PEPE_MX <= PEPE_MN; PEPE1++)
+	for (PEPE2 = 0; PEPE_MX >= PEPE_MN; PEPE2++)
 	{
-		PEPE_A[PEPE1] = PEPE_MN;
+		PEPE_A[PEPE2] = PEPE_MN;
 		PEPE_MN++;
 	}
 	
