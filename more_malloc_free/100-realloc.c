@@ -22,30 +22,32 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	{
 		return (ptr);
 	}
-	
+
 	if (ptr == 0)
 	{
 		PEPE_N = malloc(sizeof(char) * new_size);
 		return (PEPE_N);
 	}
-	
+
 	if (new_size == 0 && ptr != 0)
 	{
 		free(ptr);
 		return (NULL);
 	}
-	
+
 	PEPE_N = malloc(sizeof(char) * new_size);
-	
+
 	if (PEPE_N == 0)
 	{
 		return (NULL);
 	}
-	
+
 	if (new_size < old_size)
 	{
-		for (PEPE1 = 0; PEPE1 < new_size; PEPE1++)
+		for (PEPE1 = 0; new_size > PEPE1; PEPE1++)
+		{
 			PEPE_N[PEPE1] = PEPE_O[PEPE1];
+		}
 		return (PEPE_N);
 	}
 	
