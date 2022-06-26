@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * array_range -
+ * array_range -  creates an array of integers
  *
- * @min:
- * @max:
+ * @min: num min
+ * @max: num max
  *
- * Return:
+ * Return: array of number between min and max
  */
 int *array_range(int min, int max)
 {
@@ -21,20 +21,20 @@ int *array_range(int min, int max)
 	{
 		return (NULL);
 	}
-	
+
 	PEPE1 = PEPE_MX - PEPE_MN;
 	PEPE_A = malloc(sizeof(int) * PEPE1 + 4);
-	
+
 	if (PEPE_A == 0)
 	{
 		return (NULL);
 	}
-	
+
 	for (PEPE2 = 0; PEPE_MX >= PEPE_MN; PEPE2++)
 	{
 		PEPE_A[PEPE2] = PEPE_MN;
 		PEPE_MN++;
 	}
-	
+
 	return (PEPE_A);
 }
