@@ -23,7 +23,7 @@ int *array_range(int min, int max)
 	}
 	
 	PEPE2 = PEPE_MX - PEPE_MN;
-	PEPE_A = malloc(sizeof(int) * PEPE2);
+	PEPE_A = malloc(sizeof(int) * PEPE2 + 4);
 	
 	if (PEPE_A == 0)
 	{
