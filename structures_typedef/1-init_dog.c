@@ -7,7 +7,7 @@
  * @d: dog
  * @name: name
  * @age: age
- * @char: owner
+ * @owner: owner
  *
  * Return: void
  */
