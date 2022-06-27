@@ -11,10 +11,12 @@
  */
 void print_dog(struct dog *d)
 {
-	char PEPE_N, PEPE_O, PEPE_A;
-
-	if (d == NULL)
+	if (d->name != NULL)
 	{
-		printf("");
+		printf("Name: %s\n", d->name);
+	}
+	else
+	{
+		printf("Name: (nil)\n");
 	}
 }
