@@ -4,7 +4,7 @@
 typedef struct dog PEPERRO;
 
 /**
- * dog - a dog
+ * struct dog - a dog
  *
  * @name: name
  * @owner: owner
