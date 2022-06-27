@@ -13,35 +13,8 @@ void print_dog(struct dog *d)
 {
 	char PEPE_N, PEPE_O, PEPE_A;
 
-	if (d->name == NULL)
+	if (d == NULL)
 	{
-		PEPE_N = "nil";
+		printf("");
 	}
-	else
-	{
-		PEPE_N = d->name;
-	}
-
-	if (d->owner == NULL)
-	{
-		PEPE_O = "nil";
-	}
-	else
-	{
-		PEPE_O = d->owner;
-	}
-
-	if (d->age == NULL)
-	{
-		PEPE_A = "nil";
-	}
-	else
-	{
-		PEPE_A = d->age;
-	}
-
-	printf("Name: %s\n", PEPE_N);
-	printf("Age: %s\n", PEPE_A);
-	printf("Owner: %s\n", PEPE_O);
 }
-
