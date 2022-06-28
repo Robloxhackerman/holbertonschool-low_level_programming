@@ -17,8 +17,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	for (PEPE1 = 0; name[PEPE1] != '\0'; PEPE1++)
 		;
+	PEPE1++;
 	for (PEPE2 = 0; owner[PEPE2] != '\0'; PEPE2++)
 		;
+	PEPE2++;
 	PEPEPERRON = malloc(sizeof(dog_t));
 	if (PEPEPERRON == 0)
 	{
