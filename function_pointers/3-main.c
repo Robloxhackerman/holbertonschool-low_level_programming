@@ -1,3 +1,7 @@
+#include "3-calc.h"
+#include <stdlib.h>
+#include <stdio.h>
+
 int main(int argc, char *argv[])
 {
 	int PEPE1, PEPE2, PEPERESU;
