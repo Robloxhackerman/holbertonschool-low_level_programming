@@ -9,7 +9,7 @@ int op_add(int a, int b)
 	return (PEPESUM);
 }
 
-int op_sub(int a, int b);
+int op_sub(int a, int b)
 {
 	int PEPERES;
 
@@ -18,7 +18,7 @@ int op_sub(int a, int b);
 	return (PEPERES);
 }
 
-int op_mul(int a, int b);
+int op_mul(int a, int b)
 {
 	int PEPEMUL;
 
@@ -27,7 +27,7 @@ int op_mul(int a, int b);
 	return (PEPEMUL);
 }
 
-int op_div(int a, int b);
+int op_div(int a, int b)
 {
 	int PEPEDIV;
 
