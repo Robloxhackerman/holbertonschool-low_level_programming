@@ -13,18 +13,21 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int PEPE;
-
-	if (size <= 0)
+	
+	if (array != NULL && cmp != NULL && size >= 0)
 	{
-		return (-1);
-	}
-	else
-	{
-		for (PEPE = 0; size > PEPE; PEPE++)
+		if (size <= 0)
 		{
-			if (cmp(array[PEPE]))
+			return (-1);
+		}
+		else
+		{
+			for (PEPE = 0; size > PEPE; PEPE++)
 			{
-				return (PEPE);
+				if (cmp(array[PEPE]))
+				{
+					return (PEPE);
+				}
 			}
 		}
 	}
