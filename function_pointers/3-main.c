@@ -16,5 +16,6 @@ int main(int argc, char *argv[])
 	PEPE1 = atoi(argv[1]);
 	PEPE2 = atoi(argv[3]);
 	PEPERESU = PEPE_F(PEPE1, PEPE2);
+	printf("%d\n", PEPERESU);
 	return(0);
 }
