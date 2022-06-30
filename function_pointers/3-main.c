@@ -12,15 +12,15 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
-	
+
 	PEPE_F = get_op_func(argv[2]);
 
 	if (!PEPE_F)
 	{
 		printf("Error\n");
 		exit(99);
-	}	
-	
+	}
+
 	if (argv[2][1] != '\0')
 	{
 		printf("Error\n");
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	PEPE1 = atoi(argv[1]);
 	PEPE2 = atoi(argv[3]);
 	PEPERESU = PEPE_F(PEPE1, PEPE2);
-	
+
 	printf("%d\n", PEPERESU);
-	return(0);
+	return (0);
 }
