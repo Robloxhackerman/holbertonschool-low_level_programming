@@ -41,7 +41,7 @@ int op_div(int a, int b)
 	else
 	{
 		PEPEDIV = a / b;
-		
+
 		return (PEPEDIV);
 	}
 }
@@ -58,7 +58,7 @@ int op_mod(int a, int b)
 	else
 	{
 		PEPEROS = a % b;
-		
+
 		return (PEPEROS);
 	}
 }
