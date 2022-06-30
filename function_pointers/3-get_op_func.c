@@ -15,7 +15,7 @@ int (*get_op_func(char *s))(int, int)
 
 	while (PEPE_POP[PEPE].op)
 	{
-		if (*(PEPE_POP[i].op) == *s && s[0] != '\0')
+		if (*(PEPE_POP[PEPE].op) == *s && s[0] != '\0')
 		{
 			return (PEPE_POP[PEPE].f);
 		}
