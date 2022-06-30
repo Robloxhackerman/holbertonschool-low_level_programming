@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * op_add - sumita
+ * @a: int
+ * @b: int
+ * Return: result
+ */
 int op_add(int a, int b)
 {
 	int PEPESUM;
@@ -11,6 +17,12 @@ int op_add(int a, int b)
 	return (PEPESUM);
 }
 
+/**
+ * op_sub - restita
+ * @a: int
+ * @b: int
+ * Return: result
+ */
 int op_sub(int a, int b)
 {
 	int PEPERES;
@@ -20,6 +32,12 @@ int op_sub(int a, int b)
 	return (PEPERES);
 }
 
+/**
+ * op_mul - multiplicacioncita
+ * @a: int
+ * @b: int
+ * Return: result
+ */
 int op_mul(int a, int b)
 {
 	int PEPEMUL;
@@ -29,6 +47,12 @@ int op_mul(int a, int b)
 	return (PEPEMUL);
 }
 
+/**
+ * op_div - divisionsita
+ * @a: int
+ * @b: int
+ * Return: result
+ */
 int op_div(int a, int b)
 {
 	int PEPEDIV;
@@ -46,6 +70,12 @@ int op_div(int a, int b)
 	}
 }
 
+/**
+ * op_mod - restito
+ * @a: int
+ * @b: int
+ * Return: result
+ */
 int op_mod(int a, int b)
 {
 	int PEPEROS;
