@@ -12,6 +12,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
+	if (argv 
 	PEPE_F = get_op_func(argv[2]);
 	PEPE1 = atoi(argv[1]);
 	PEPE2 = atoi(argv[3]);
