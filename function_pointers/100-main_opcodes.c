@@ -30,7 +30,7 @@ int main(int argc, char **argv)
 
 	PEPE_A = (char *)main;
 
-	for (PEPE2 = 0; PEPE2 < PEPE1 - 1; PEPE2++)
+	for (PEPE2 = 0; PEPE1 - 1 > PEPE2; PEPE2++)
 	{
 		printf("%02hhx ", PEPE_A[PEPE2]);
 	}
