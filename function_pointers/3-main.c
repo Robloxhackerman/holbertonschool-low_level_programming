@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	
 	PEPE_F = get_op_func(argv[2]);
 
-	if (!PEPE_F))
+	if (!PEPE_F)
 	{
 		printf("Error\n");
 		exit(99);
