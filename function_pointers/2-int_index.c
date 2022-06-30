@@ -12,7 +12,7 @@
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	unsigned int PEPE;
+	int PEPE;
 
 	if (size <= 0)
 	{
@@ -28,4 +28,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 			}
 		}
 	}
+	
+	return (0);
 }
