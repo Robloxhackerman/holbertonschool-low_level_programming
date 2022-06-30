@@ -1,6 +1,10 @@
 #include "3-calc.h"
 #include <stdlib.h>
-
+/**
+ * get_op_func - add
+ * @s: operator
+ * Return: always 0
+ */
 int (*get_op_func(char *s))(int, int)
 {
 	int PEPE;
