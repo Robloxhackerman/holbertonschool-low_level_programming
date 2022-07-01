@@ -25,7 +25,6 @@ int sum_them_all(const unsigned int n, ...)
 	else
 	{
 		for (PEPE1 = 0; n > PEPE1; PEPE1++)
-	
 		{
 			PEPE2 = PEPE2 + va_arg(PEPEMETRO, int);
 		}
