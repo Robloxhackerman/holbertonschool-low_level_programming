@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * sum_them_All - sum numbers
+ * sum_them_all - sum numbers
  *
  * @n: num of args
  *
@@ -11,7 +11,7 @@
 int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int PEPE1;
-        int PEPE2;
+	int PEPE2;
 	va_list PEPEMETRO;
 
 	va_start(PEPEMETRO, n);
