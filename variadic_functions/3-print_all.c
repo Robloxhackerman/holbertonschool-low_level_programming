@@ -39,7 +39,7 @@ void print_all(const char * const format, ...)
 				coso[PEPE1].f(PEPERATOR, PEPEARG);
 				PEPERATOR = ", ";
 			}
-			PEPE2++
+			PEPE2++;
 		}
 		PEPE1++;
 	}
