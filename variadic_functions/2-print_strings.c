@@ -35,7 +35,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 		else if (PEPE2 == NULL)
 		{
-			printf("%s%s", PEPE2, "(nil)");
+			printf("%s%s", "(nil)", separator);
 		}
 		else
 		{
