@@ -29,13 +29,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 			printf("%s", PEPE2);
 		}
-		else if (PEPE1 == (n - 1))
-		{
-			printf("%s", PEPE2);
-		}
 		else if (PEPE2 == NULL)
 		{
 			printf("%s%s", "(nil)", separator);
+		}
+		else if (PEPE1 == (n - 1))
+		{
+			printf("%s", PEPE2);
 		}
 		else
 		{
