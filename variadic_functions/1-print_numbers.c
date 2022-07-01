@@ -31,7 +31,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		}
 		else if (PEPE1 == (n - 1))
 		{
-			printf("%d%s", PEPE2);
+			printf("%d", PEPE2);
 		}
 		else
 		{
