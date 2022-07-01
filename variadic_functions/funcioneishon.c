@@ -1,3 +1,6 @@
+#include <stdarg.h>
+#include <stdio.h>
+
 void pepe_charo(char *separator, va_list args)
 {
 	printf("%s%i", separator, va_arg(args, int));
