@@ -21,7 +21,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	PEPE1 = 0;
 
-	for (PEPE1 = 0; n >= PEPE1; PEPE1++)
+	for (PEPE1 = 0; n > PEPE1; PEPE1++)
 	{
 		PEPE2 = va_arg(PEPEARG, int);
 
