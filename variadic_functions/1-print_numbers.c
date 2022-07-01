@@ -13,7 +13,7 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	unsigned PEPE1;
+	unsigned int PEPE1;
 	int PEPE2;
 	va_list PEPEARG;
 
@@ -21,7 +21,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	PEPE1 = 0;
 
-	for (PEPE1 = 0; n > PEPE1; PEPE1++)
+	for (PEPE1 = 0; n >= PEPE1; PEPE1++)
 	{
 		PEPE2 = va_arg(PEPEARG, int);
 
