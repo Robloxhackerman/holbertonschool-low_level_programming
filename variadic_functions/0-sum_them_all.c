@@ -11,7 +11,8 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	int PEPE1, PEPE2;
+	unsigned int PEPE1;
+        int PEPE2;
 
 	va_list PEPEMETRO;
 	va_start(PEPEMETRO, n);
