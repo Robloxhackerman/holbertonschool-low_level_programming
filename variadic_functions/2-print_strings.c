@@ -23,7 +23,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	for (PEPE1 = 0; n > PEPE1; PEPE1++)
 	{
-		PEPE2 = va_arg(PEPEARG, int);
+		PEPE2 = va_arg(PEPEARG, char);
 
 		if (separator == NULL)
 		{
