@@ -33,6 +33,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 			printf("%s", PEPE2);
 		}
+		else if (PEPE2 == NULL)
+		{
+			printf("%s%s", PEPE2, "(nil)");
+		}
 		else
 		{
 			printf("%s%s", PEPE2, separator);
