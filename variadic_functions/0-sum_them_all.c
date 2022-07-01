@@ -1,5 +1,6 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
+#include <stdlib.h>
 
 /**
  * sum_them_All - sum numbers
@@ -17,11 +18,20 @@ int sum_them_all(const unsigned int n, ...)
 
 	PEPE2 = 0;
 
-	for (PEPE1 = 0; n > PEPE1; PEPE1++)
+	if (n == 0)
 	{
-		PEPE2 = PEPE2 + va_arg(PEPEMETRO, int);
+		return (NULL);
 	}
+	else
+	{
+		for (PEPE1 = 0; n > PEPE1; PEPE1++)
 	
+		{
+		
+			PEPE2 = PEPE2 + va_arg(PEPEMETRO, int);
+	
+		}
+	}
 	va_end(PEPEMETRO);
 	return (PEPEMETRO);
 }
