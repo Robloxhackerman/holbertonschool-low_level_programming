@@ -31,7 +31,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 		else if (PEPE2 == NULL)
 		{
-			printf("%s%s", "(nil)", separator);
+			printf("%s", "(nil)");
 		}
 		else if (PEPE1 == (n - 1))
 		{
