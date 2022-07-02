@@ -1,49 +1,101 @@
 #include "variadic_functions.h"
-#include "funcioneishon.h"
-#include <stdarg.h>
 #include <stdlib.h>
 #include <stdio.h>
 
 /**
- * print_all - prints strings
+ * print_all - Prints anything
+ * @format: The conversion specifier to prints
  *
- * @separator: the separator
- * @n: num of args
- *
- * Return: void
+ * Return: Nothing
  */
 void print_all(const char * const format, ...)
 {
-	unsigned int PEPE1, PEPE2;
-	char *PEPERATOR;
-	va_list PEPEARG;
-	pepin coso[] = {
-		{"c", pepe_charo},
-		{"i", pepe_into},
-		{"f", pepe_floato},
-		{"s", pepe_charto},
+	va_list args;
+	f_dt form_types[] = {
+		{ "c", print_a_char },
+		{ "i", print_a_integer },
+		{ "f", print_a_float },
+		{ "s", print_a_char_ptr }
 	};
+	unsigned int i = 0;
+	unsigned int j = 0;
+	char *separator = "";
 
-	va_start(PEPEARG, format);
+	va_start(args, format);
 
-	PEPE1 = 0;
-	PEPE2 = 0;
-	PEPERATOR = "";
 
-	while (format != NULL && format[PEPE1])
+	while (format != NULL && format[i])
 	{
-		while (PEPE2 < 4)
+		j = 0;
+		while (j < 4)
 		{
-			if (format[PEPE1] == *coso[PEPE2].id)
+			if (format[i] == *form_types[j].identifier)
 			{
-				coso[PEPE1].f(PEPERATOR, PEPEARG);
-				PEPERATOR = ", ";
+				form_types[j].f(separator, args);
+				separator = ", ";
 			}
-			PEPE2++;
+			j++;
 		}
-		PEPE1++;
+		i++;
 	}
 
-	va_end(PEPEARG);
+	va_end(args);
 	printf("\n");
 }
+
+/**
+ * print_a_char - Prints a character of char type
+ * @separator: The separator of the character
+ * @args: A list of variadic arguments
+ *
+ * Return: Nothing
+ */
+void print_a_char(char *separator, va_list args)
+{
+		printf("%s%c", separator, va_arg(args, int));
+}
+
+/**
+ * print_a_integer - Prints a character of integer type
+ * @separator: The separator of the character
+ * @args: A list of variadic arguments
+ *
+ * Return: Nothing
+ */
+void print_a_integer(char *separator, va_list args)
+{
+		printf("%s%i", separator, va_arg(args, int));
+}
+
+/**
+ * print_a_float - Prints a character of float type
+ * @separator: The separator of the character
+ * @args: A list of variadic arguments
+ *
+ * Return: Nothing
+ */
+void print_a_float(char *separator, va_list args)
+{
+		printf("%s%f", separator, va_arg(args, double));
+}
+
+/**
+ * print_a_char_ptr - Prints the content of pointer to char type
+ * @separator: The separator of the character
+ * @args: A list of variadic arguments
+ *
+ * Return: Nothing
+ */
+void print_a_char_ptr(char *separator, va_list args)
+{
+	char *arg = va_arg(args, char *);
+
+	if (arg == NULL)
+	{
+		printf("%s%s", separator, "(nil)");
+		return;
+	}
+
+	printf("%s%s", separator, arg);
+}
+
