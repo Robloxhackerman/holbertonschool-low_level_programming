@@ -7,11 +7,6 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
-void pepe_charo(char *separator, va_list args);
-void pepe_into(char *separator, va_list args);
-void pepe_floato(char *separator, va_list args);
-void pepe_charto(char *separator, va_list args);
-
 /**
  * struct coso - struct
  *
