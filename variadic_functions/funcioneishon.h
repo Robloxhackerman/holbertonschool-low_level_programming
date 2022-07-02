@@ -3,7 +3,7 @@
 
 void pepe_charo(char *separator, va_list args)
 {
-	printf("%s%s", separator, va_arg(args, int));
+	printf("%s%d", separator, va_arg(args, int));
 }
 
 void pepe_into(char *separator, va_list args)
@@ -20,7 +20,7 @@ void pepe_charto(char *separator, va_list args)
 {
 	char *arg;
 	
-	va_arg(args, char *);
+	arg = va_arg(args, char *);
 	
 	if (arg == NULL)
 	{
