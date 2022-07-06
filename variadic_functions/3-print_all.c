@@ -21,7 +21,7 @@ void print_all(const char * const format, ...)
 	char *separator = "";
 
 	PEPE1 = 0;
-	PEPE2 = 0
+	PEPE2 = 0;
 
 	va_start(args, format);
 
