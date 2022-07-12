@@ -1,3 +1,5 @@
+#ifndef _LISTITA_
+#define _LISTITA_
 
 #include <stdio.h>
 
@@ -10,3 +12,5 @@ typedef struct list_s
 	unsigned int len;
 	struct list_s *next;
 } list_t;
+
+#endif
