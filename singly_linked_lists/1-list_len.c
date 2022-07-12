@@ -16,6 +16,6 @@ size_t list_len(const list_t *h)
 		PEPE1++;
 		h = h->next;
 	}
-	
+
 	return (PEPE1);
 }
