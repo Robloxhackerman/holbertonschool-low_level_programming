@@ -38,9 +38,9 @@ list_t *add_node_end(list_t **head, const char *str)
 	listita_add->next = NULL;
 	listita_add->str = strdup(str);
 
-	PEPE = 1;
+	PEPE1 = 0;
 
-	for (str[a] != '\0')
+	while (str[PEPE1] != '\0')
 	{
 		PEPE1;
 	}
