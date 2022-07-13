@@ -1,5 +1,13 @@
 #include "lists.h"
 
+/**
+ * add_note - adds new node
+ *
+ * @head: pointer
+ * @str: styring
+ *
+ * Return: new node
+ */
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *listita;
