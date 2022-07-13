@@ -2,7 +2,7 @@
 
 size_t print_listint(const listint_t *h)
 {
-	size_t = PEPE1;
+	size_t  PEPE1;
 
 	while (h)
 	{
