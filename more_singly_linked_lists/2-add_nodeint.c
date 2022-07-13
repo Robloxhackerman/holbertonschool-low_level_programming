@@ -10,7 +10,7 @@
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	list_t *listita;
+	listint_t *listita;
 	unsigned int PEPE1;
 
 	PEPE1 = n;
