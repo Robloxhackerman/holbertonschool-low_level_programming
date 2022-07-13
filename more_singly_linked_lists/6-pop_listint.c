@@ -12,7 +12,7 @@ int pop_listint(listint_t **head)
 	listint_t *listita;
 	int PEPE;
 
-	if (head == NULL)
+	if (*head == NULL)
 	{
 		return (0);
 	}
