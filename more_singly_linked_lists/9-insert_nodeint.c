@@ -38,7 +38,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 			return (NULL);
 		}
 
-		listita_P2 = listita_P2->next; 
+		listita_P2 = listita_P2->next;
 	}
 
 	listita_P1->next = listita_P2->next;
