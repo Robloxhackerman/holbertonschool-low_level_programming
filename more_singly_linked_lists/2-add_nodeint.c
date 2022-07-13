@@ -15,7 +15,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 
 	PEPE1 = n;
 
-	listita = malloc(sizeof(list_t));
+	listita = malloc(sizeof(listint_t));
 
 	if (!listita)
 	{
