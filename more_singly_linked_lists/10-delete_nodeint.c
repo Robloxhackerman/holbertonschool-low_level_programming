@@ -39,7 +39,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 	listita_P2 = listita_P1->next;
 	listita_P1->next = listita_P2->next;
-	free(listita_P2)
+	free(listita_P2);
 	
 	return (listita_P1);
 }
