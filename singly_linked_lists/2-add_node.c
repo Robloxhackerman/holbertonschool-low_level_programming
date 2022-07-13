@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_note - adds new node
+ * add_node - adds new node
  *
  * @head: pointer
  * @str: styring
