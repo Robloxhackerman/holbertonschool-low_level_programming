@@ -29,7 +29,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	else
 	{
 		listita_ac = *head;
-		while (current->next != NULL)
+		while (listita_ac->next != NULL)
 		{
 			listita_ac = listita_ac->next;
 		}
