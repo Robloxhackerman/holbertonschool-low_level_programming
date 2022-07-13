@@ -2,7 +2,7 @@
 
 int pop_listint(listint_t **head)
 {
-	listint_t *listita
+	listint_t *listita;
 	int PEPE;
 
 	if (head == NULL)
