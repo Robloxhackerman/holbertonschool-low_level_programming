@@ -1,3 +1,13 @@
+#include "lists.h"
+
+/**
+ * add_nodeint_end - adds new node to the end
+ *
+ * @head: pointer to list
+ * @n: value
+ *
+ * Return: list
+ */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *listita_add, *listita_ac;
