@@ -42,7 +42,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	while (str[PEPE1] != '\0')
 	{
-		PEPE1;
+		PEPE1++;
 	}
 	listita_add->len = PEPE1;
 	return (listita_add);
