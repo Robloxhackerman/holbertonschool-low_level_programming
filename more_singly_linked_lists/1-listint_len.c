@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * list_len - prints amount of elements
+ * listnt_len - prints amount of elements
  *
  * @h: list
  *
