@@ -2,11 +2,11 @@
 
 int sum_listint(listint_t *head)
 {
-	int PEPE;
+	int PEPE = 0;
 
 	while (head != NULL)
 	{
-		PEPE = head->n;
+		PEPE = PEPE + head->n;
 		head = head->next;
 	}
 	
