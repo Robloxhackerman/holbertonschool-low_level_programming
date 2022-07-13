@@ -1,6 +1,6 @@
 #include "lists.h"
 
-listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
+int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *listita_P1, *listita_P2;
 	unsigned int PEPE1;
@@ -9,7 +9,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	if (listita_P1 == NULL)
 	{
-		return (NULL);
+		return ();
 	}
 
 	listita_P1->n = n;
@@ -22,7 +22,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		return (listita_P1);
 	}
 
-	for (PEPE1 = 0; (idx - 1) > PEPE1; PEPE1++)
+	for (PEPE1 = 0; idx > PEPE1; PEPE1++)
 	{
 		if (listita_P2 == NULL || listita_P2->next == NULL)
 		{
