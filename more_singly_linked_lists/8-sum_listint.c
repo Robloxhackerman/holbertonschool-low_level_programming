@@ -1,5 +1,12 @@
 #include "lists.h"
 
+/**
+ * sum_listint - sum all elements
+ *
+ * @pointer to list
+ *
+ * Return: sumita
+ */
 int sum_listint(listint_t *head)
 {
 	int PEPE = 0;
@@ -9,6 +16,6 @@ int sum_listint(listint_t *head)
 		PEPE = PEPE + head->n;
 		head = head->next;
 	}
-	
+
 	return (PEPE);
 }
