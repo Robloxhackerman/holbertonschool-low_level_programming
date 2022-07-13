@@ -3,7 +3,7 @@
 /**
  * sum_listint - sum all elements
  *
- * @pointer to list
+ * @head: pointer to list
  *
  * Return: sumita
  */
