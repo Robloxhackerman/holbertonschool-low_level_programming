@@ -5,7 +5,7 @@ size_t print_listint_safe(const listint_t *head)
 	size_t PEPE1 = 0;
 	long int PEPE2;
 
-	while (head != NULL)
+	while (head)
 	{
 		PEPE1++;
 		PEPE2 = head - head->next;
