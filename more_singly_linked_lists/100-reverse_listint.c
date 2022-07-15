@@ -2,7 +2,7 @@
 
 listint_t *reverse_listint(listint_t **head)
 {
-	listint_t *listita_P1, listita_P2;
+	listint_t *listita_P1, *listita_P2;
 
 	if (head== NULL)
 	{
