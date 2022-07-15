@@ -7,8 +7,8 @@ size_t print_listint_safe(const listint_t *head)
 
 	while (head)
 	{
-		PEPE1++;
 		PEPE2 = head - head->next;
+		PEPE1++;
 
 		printf("[%p] %d\n", (void *)head, head->n);
 
