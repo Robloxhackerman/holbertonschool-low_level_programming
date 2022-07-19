@@ -11,9 +11,9 @@ unsigned int binary_to_uint(const char *b)
 
 	while (b[PEPE1])
 	{
-		PEPE1 = n % 10;
+		PEPE1 = b % 10;
 		PEPE_ALL = PEPE_ALL PEPE1 << i;
-		n = n / 10;
+		b = b / 10;
 		i++;
 	}
 	return (PEPE);
