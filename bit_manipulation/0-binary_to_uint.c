@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * binary_to_unit - convert binary into int
+ *
+ * @b: binary to convert
+ *
+ * Return: int
+ */
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int PEPE = 0;
