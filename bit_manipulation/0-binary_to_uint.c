@@ -13,7 +13,7 @@ unsigned int binary_to_uint(const char *b)
 
 	while (b[PEPE1])
 	{
-		if (b[PEPE1] != '0' || b[PEPE1] != '1')
+		if (b[PEPE1] < 48 && b[PEPE1] > 49)
 		{
 			return (0);
 		}
