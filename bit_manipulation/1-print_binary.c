@@ -12,5 +12,5 @@ void print_binary(unsigned long int n)
 		PEPE_BI = PEPE_BI + (PEPE * PEPE1);
 		PEPE1 = PEPE1 * 10;
 	}
-	return (PEPE_BI);
+	printf("%d", PEPE_BI);
 }
