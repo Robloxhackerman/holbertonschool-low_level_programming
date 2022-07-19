@@ -1,5 +1,5 @@
-#define _PEPON_
 #ifndef _PEPON_
+#define _PEPON_
 
 #include <stdlib.h>
 #include <stdio.h>
