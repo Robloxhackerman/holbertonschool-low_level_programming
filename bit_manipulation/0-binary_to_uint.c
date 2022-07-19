@@ -9,8 +9,6 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 	}	
 
-	PEPE_LEN = strlen(b);
-
 	while (b[PEPE1])
 	{
 		PEPE1 = n % 10;
