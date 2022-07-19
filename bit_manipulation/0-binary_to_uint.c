@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * binary_to_unit - convert binary into int
+ * binary_to_uint - convert binary into int
  *
  * @b: binary to convert
  *
@@ -15,7 +15,7 @@ unsigned int binary_to_uint(const char *b)
 	if (b == NULL)
 	{
 		return (0);
-	}	
+	}
 
 	while (b[PEPE1] == '0' || b[PEPE1] == '1')
 	{
