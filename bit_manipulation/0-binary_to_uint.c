@@ -2,7 +2,7 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int PEPE_ALL = 0, PEPE1 = 0, i = 0;
+	unsigned int PEPE_ALL = 0, PEPE1 = 0, PEPE_LEN = 0;
 
 	if (b == NULL)
 	{
@@ -11,10 +11,16 @@ unsigned int binary_to_uint(const char *b)
 
 	while (b[PEPE1])
 	{
-		PEPE1 = b % 10;
-		PEPE_ALL = PEPE_ALL PEPE1 << i;
-		b = b / 10;
-		i++;
+		if (b[PEPE1] < '1' || b[PEPE1] != '0')
+		{
+			return (0);
+		}
+		else
+		{
+			PEPE = PEPE + (2^PEPE_LEN);
+		}
+		PEPE1++;
+		PEPE_LEN--;
 	}
 	return (PEPE);
 }
