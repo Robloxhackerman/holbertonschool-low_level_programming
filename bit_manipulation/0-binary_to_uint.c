@@ -19,7 +19,7 @@ unsigned int binary_to_uint(const char *b)
 		}
 		else if (b[PEPE1] == '1')
 		{
-			PEPE = PEPE + (2^PEPE_LEN)
+			PEPE = PEPE + (2^PEPE_LEN);
 		}
 		PEPE1++;
 		PEPE_LEN--;
