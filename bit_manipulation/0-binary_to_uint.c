@@ -2,25 +2,19 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int PEPE = 0, PEPE1 = 0, PEPE_LEN = 0;
+	unsigned int PEPE = 0;
+	int PEPE1;
 
 	if (b == NULL)
 	{
 		return (0);
 	}	
 
-	while (b[PEPE1])
+	while (b[PEPE1] != '0' || b[PEPE1] != '1')
 	{
-		if (b[PEPE1] != '1' || b[PEPE1] != '0')
-		{
-			return (0);
-		}
-		else
-		{
-			PEPE = PEPE + (2^PEPE_LEN);
-		}
+		PEPE <<= 1;
+		PEPE += b[PEPE1] - '0';
 		PEPE1++;
-		PEPE_LEN--;
 	}
-	return (PEPE);
+	return (PEPE1);
 }
