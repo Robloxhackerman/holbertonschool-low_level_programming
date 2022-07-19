@@ -13,11 +13,11 @@ unsigned int binary_to_uint(const char *b)
 
 	while (b[PEPE1])
 	{
-		if (b[PEPE1] < 48 && b[PEPE1] > 49)
+		if (b[PEPE1] < '1' || b[PEPE1] != '0')
 		{
 			return (0);
 		}
-		else if (b[PEPE1] == '1')
+		else
 		{
 			PEPE = PEPE + (2^PEPE_LEN);
 		}
