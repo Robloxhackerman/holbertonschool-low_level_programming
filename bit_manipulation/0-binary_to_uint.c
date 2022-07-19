@@ -11,7 +11,7 @@ unsigned int binary_to_uint(const char *b)
 
 	PEPE_LEN = strlen(b);
 
-	while (b[PEPE1] != '\0')
+	while (b[PEPE1])
 	{
 		if (b[PEPE1] == '1')
 		{
