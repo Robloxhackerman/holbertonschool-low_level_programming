@@ -10,7 +10,7 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 	}	
 
-	while (b[PEPE1] != '0' || b[PEPE1] != '1')
+	while (b[PEPE1] == '0' || b[PEPE1] == '1')
 	{
 		PEPE <<= 1;
 		PEPE += b[PEPE1] - '0';
