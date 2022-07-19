@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * get_bit - returns the value of a bit at a given index
+ *
+ * @n: num
+ * @index: index
+ *
+ * Return: return value of a bit or -1 if fail
+ */
 int get_bit(unsigned long int n, unsigned int index)
 {
 	if (index < 64)
