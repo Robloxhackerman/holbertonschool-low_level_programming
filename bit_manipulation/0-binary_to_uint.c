@@ -22,7 +22,6 @@ unsigned int binary_to_uint(const char *b)
 			PEPE = PEPE + (2^PEPE_LEN);
 		}
 		PEPE1++;
-		PEPE_LEN--;
 	}
 	return (PEPE);
 }
