@@ -10,12 +10,14 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	if (index < 64)
+	unsigned long int PEPEIN = (1 << index), PEPON = *n;
+	if (n)
 	{
-		return ((n & (1 << index)) >> index);
+		if (index <= 64)
+		{
+			*n = PEPIN | PEPON;
+			return (1);
+		}
 	}
-	else
-	{
-		return (-1);
-	}
+	return (-1);
 }
