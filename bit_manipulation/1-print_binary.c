@@ -1,16 +1,17 @@
 #include "main.h"
 
+/**
+ * print_binary - prints the binary representation of a number
+ *
+ * @n: int
+ *
+ * Return: binary
+ */
 void print_binary(unsigned long int n)
 {
-	unsigned int PEPE_BI, PEPE;
-	int PEPE1;
-
-	while (n != 0)
+	if (n > 1)
 	{
-		PEPE = n % 2;
-		n = n / 2;
-		PEPE_BI = PEPE_BI + (PEPE * PEPE1);
-		PEPE1 = PEPE1 * 10;
+		print_binary(n >> 1);
 	}
-	printf("%d", PEPE_BI);
+	_putchar((n & 1) + '0');
 }
