@@ -2,7 +2,7 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int PEPE_ALL = 0, PEPE1 = 0, PEPE_LEN = 0;
+	unsigned int PEPE = 0, PEPE1 = 0, PEPE_LEN = 0;
 
 	if (b == NULL)
 	{
