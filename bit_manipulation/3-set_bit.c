@@ -11,6 +11,7 @@
 int set_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int PEPEIN = (1 << index), PEPON = *n;
+	
 	if (n)
 	{
 		if (index <= 64)
