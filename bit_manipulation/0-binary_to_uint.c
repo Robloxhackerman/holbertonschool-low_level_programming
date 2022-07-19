@@ -3,7 +3,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int PEPE = 0;
-	int PEPE1;
+	int PEPE1 = 0º;
 
 	if (b == NULL)
 	{
