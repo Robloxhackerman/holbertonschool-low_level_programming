@@ -16,5 +16,9 @@ unsigned int binary_to_uint(const char *b)
 		PEPE += b[PEPE1] - '0';
 		PEPE1++;
 	}
+	if (b[PEPE1] != '\0')
+	{
+		return (0);
+	}
 	return (PEPE1);
 }
