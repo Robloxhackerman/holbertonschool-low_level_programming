@@ -34,7 +34,7 @@ void copy_text(const char *pepeFile, const char *juanFile)
 	mode_t modsie = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 
 	copyMe = open(pepeFile, O_RDONLY);
-	if(copyMe == -1)
+	if (copyMe == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", pepeFile);
 		exit(98);
