@@ -34,14 +34,14 @@ void copy_text(const char *pepeFile, const char *juanFile)
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", copyMe);
 		exit(100);
 	}
-	if (close(createMe) == -1)
+	if (createMe == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", createMe);
 		exit(100);
 	}
-	if (close(readMe) == -1)
+	if (readMe == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", readMe);
-		exit(100);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %d\n", readMe);
+		exit(98);
 	}
 }
