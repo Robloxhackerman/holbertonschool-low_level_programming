@@ -11,7 +11,7 @@ int main(int argc, char **argv)
 	exit(0);
 }
 
-int copy_text(const char *pepeFile, const char *juanFile)
+void copy_text(const char *pepeFile, const char *juanFile)
 {
 	int copyMe, createMe, readMe;
 	char allChars[1024];
