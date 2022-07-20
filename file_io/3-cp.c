@@ -29,4 +29,19 @@ void copy_text(const char *pepeFile, const char *juanFile)
 	readMe = read(copyMe, allChars, 1024);
 	write(createMe, allChars, readMe);
 
+	if (close(copyMe) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", copyMe);
+		exit(100);
+	}
+	if (close(createMe) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", createMe);
+		exit(100);
+	}
+	if (close(readMe) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", readMe);
+		exit(100);
+	}
 }
