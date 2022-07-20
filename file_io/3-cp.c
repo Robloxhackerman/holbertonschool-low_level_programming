@@ -41,7 +41,7 @@ void copy_text(const char *pepeFile, const char *juanFile)
 	}
 	if (writeMe == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", pepeFile);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", juanFile);
 		exit(99);
 	}
 	if (close(createMe) == -1)
