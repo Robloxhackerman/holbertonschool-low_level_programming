@@ -22,7 +22,7 @@ int copy_text(const char *pepeFile, const char *juanFile)
 
 	if(copyMe == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", src);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", pepeFile);
 		exit(98);
 	}
 }
