@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 
 int copy_text(const char *pepeFile, const char *juanFile)
 {
-	int copyMe, createMe;
+	int copyMe, createMe, readMe;
 	char allChars[1024];
 	mode_t modsie = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 
