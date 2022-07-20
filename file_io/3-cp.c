@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 void copy_text(const char *pepeFile, const char *juanFile)
 {
 	int copyMe, createMe, readMe, writeMe;
-	char allChars[1024];
+	char allChars[4096];
 	mode_t modsie = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 
 	copyMe = open(pepeFile, O_RDONLY);
@@ -26,7 +26,7 @@ void copy_text(const char *pepeFile, const char *juanFile)
 	}
 	
 	createMe = open(juanFile, O_WRONLY | O_TRUNC | O_CREAT, modsie);
-	readMe = read(copyMe, allChars, 1024);
+	readMe = read(copyMe, allChars, 4096);
 	writeMe = write(createMe, allChars, readMe);
 
 	if (createMe == -1)
