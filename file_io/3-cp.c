@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 int copy_text(const char *pepeFile, const char *juanFile)
 {
 	int copyMe, createMe;
-	char *allChars = malloc(sizeof(char) * letters);
+	char *allChars = malloc(sizeof(char) * 1024);
 
 	copyMe = open(pepeFile, O_RDONLY);
 
