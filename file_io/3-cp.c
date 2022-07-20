@@ -31,17 +31,17 @@ void copy_text(const char *pepeFile, const char *juanFile)
 
 	if (close(copyMe) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %d\n", pepeFile);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", pepeFile);
 		exit(99);
 	}
 	if (createMe == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %d\n", juanFile);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", juanFile);
 		exit(99);
 	}
 	if (readMe == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %d\n", readMe);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", pepeFile);
 		exit(98);
 	}
 }
