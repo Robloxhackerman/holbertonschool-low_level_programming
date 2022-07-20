@@ -7,16 +7,15 @@ int main(int argc, char **argv)
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
-	else
-	{
-		copy_text(argv[1], argv[2]);
-	}		
+	copy_text(argv[1], argv[2]);
+	exit(0);
 }
 
 int copy_text(const char *pepeFile, const char *juanFile)
 {
 	int copyMe, createMe;
-	char *allChars = malloc(sizeof(char) * 1024);
+	char allChars[1024];
+	mode_t modsie = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 
 	copyMe = open(pepeFile, O_RDONLY);
 
@@ -25,4 +24,9 @@ int copy_text(const char *pepeFile, const char *juanFile)
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", pepeFile);
 		exit(98);
 	}
+	
+	createMe = open(juanFile, O_WRONLY | O_TRUNC | O_CREAT, modsie);
+	readMe = read(copyMe, allChars, 1024);
+	write(createMe, allChars, readMe);
+
 }
