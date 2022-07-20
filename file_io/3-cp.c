@@ -31,12 +31,12 @@ void copy_text(const char *pepeFile, const char *juanFile)
 
 	if (close(copyMe) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", copyMe);
+		dprintf(STDERR_FILENO, "Error: Can't write to %d\n", pepeFile);
 		exit(99);
 	}
 	if (createMe == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", createMe);
+		dprintf(STDERR_FILENO, "Error: Can't write to %d\n", juanFile);
 		exit(99);
 	}
 	if (readMe == -1)
