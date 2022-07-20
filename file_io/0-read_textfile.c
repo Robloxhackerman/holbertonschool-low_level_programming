@@ -17,20 +17,20 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 		return (0);
 	}
-	
+
 	if (!allChars)
 	{
 		return (0);
 	}
-	
+
 	if (saveMe == -1)
 	{
 		return (0);
 	}
-	
+
 	cCount = read(saveMe, allChars, letters);
 	write(STDOUT_FILENO, allChars, cCount);
 	close(saveMe);
-	
+
 	return (cCount);
 }
