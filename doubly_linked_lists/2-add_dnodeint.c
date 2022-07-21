@@ -28,7 +28,7 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 		(*head)->prev = PEPODO;
 		*head = PEPODO;
 		
-		return(*head);
+		return (*head);
 	}
 	PEPODO->next = *head;
 	PEPODO->prev = NULL;
