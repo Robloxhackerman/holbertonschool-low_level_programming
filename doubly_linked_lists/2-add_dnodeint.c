@@ -10,7 +10,7 @@
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-	dlistnt_t = *PEPODO;
+	dlistint_t = *PEPODO;
 
 	PEPODO = malloc(sizeof(dlistint_t));
 
