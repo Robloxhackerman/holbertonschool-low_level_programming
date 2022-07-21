@@ -2,7 +2,7 @@
 
 size_t print_dlistint(const dlistint_t *h)
 {
-	int PEPE1;
+	int PEPE1 = 0;
 
 	while (h != NULL)
 	{
