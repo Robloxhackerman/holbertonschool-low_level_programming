@@ -1,10 +1,9 @@
 #include "lists.h"
 
 /**
- * get_dnodeint_at_index - returns the nth node of a dlistint_t linked list
+ * sum_dlistint - returns the nth node of a dlistint_t linked list
  *
  * @head: list
- * @index: index
  *
  * Return: node, or NULL if fails
  */
