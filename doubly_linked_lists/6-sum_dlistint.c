@@ -11,7 +11,7 @@
 int sum_dlistint(dlistint_t *head)
 {
 	dlistint_t *PEPOCTUAL = head;
-	int PEPE1 = 0;
+	int PEPE = 0;
 
 	if (head)
 	{
