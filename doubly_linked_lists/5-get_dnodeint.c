@@ -17,7 +17,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	{
 		while (PEPOCTUAL != NULL)
 		{
-			if (PEPE1 == index)
+			if (index == PEPE1)
 			{
 				return (PEPOCTUAL);
 			}
