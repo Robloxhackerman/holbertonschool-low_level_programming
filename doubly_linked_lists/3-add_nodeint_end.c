@@ -35,7 +35,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 		PEPODO->prev = PEPOCTUAL;
 		PEPOCTUAL->next = PEPODO;
 
-		return (*head);
+		return (PEPODO);
 	}
 	
 	PEPODO->next = *head;
