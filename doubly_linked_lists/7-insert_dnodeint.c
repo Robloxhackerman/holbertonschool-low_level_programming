@@ -31,7 +31,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 	while (PEPOCTUAL != NULL)
 	{
-		if (idex == PEPE1)
+		if (idx == PEPE1)
 		{
 			PEPODO->n = n;
 			PEPODO->next = PEPOCTUAL;
