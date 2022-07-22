@@ -22,6 +22,6 @@ int sum_dlistint(dlistint_t *head)
 		}
 	}
 
-	return (NULL);
+	return (0);
 
 }
