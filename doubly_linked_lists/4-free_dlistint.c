@@ -9,7 +9,7 @@
  */
 void free_dlistint(dlistint_t *head)
 {
-	dlistsint_t *PEPOCTUAL = head, *PEPOROXIMO = NULL;
+	dlistint_t *PEPOCTUAL = head, *PEPOROXIMO = NULL;
 
 	while (PEPOCTUAL != NULL)
 	{
