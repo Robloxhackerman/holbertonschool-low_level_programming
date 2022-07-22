@@ -9,7 +9,7 @@
  *
  * Return: address or null if fails
  */
-dlistint_t *add_dnodeint(dlistint_t **h, unsigned int idx, int n)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *PEPODO = malloc(sizeof(dlistint_t)), *PEPOCTUAL = NULL;
 	unsigned int PEPERGO = dlistint_len(*h), PEPE1 = 0;
