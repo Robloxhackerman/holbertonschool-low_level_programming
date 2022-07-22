@@ -22,11 +22,11 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	PEPODO->n = n;
 
 	if (*head)
-	
+
 	{
 		PEPOCTUAL = *head;
 
-		while(PEPOCTUAL->next != NULL)
+		while (PEPOCTUAL->next != NULL)
 		{
 			PEPOCTUAL = PEPOCTUAL->next;
 		}
@@ -37,7 +37,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 		return (PEPODO);
 	}
-	
+
 	PEPODO->next = *head;
 	PEPODO->prev = NULL;
 	*head = PEPODO;
