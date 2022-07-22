@@ -22,16 +22,16 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	{
 		return (add_dnodeint(h, n));
 	}
-	else if (PEPERGO == idx)
+	else if (idx == PEPERGO)
 	{
 		return (add_dnodeint_end(h, n));
 	}
 
 	PEPOCTUAL = *h;
-	
+
 	while (PEPOCTUAL != NULL)
 	{
-		if (PEPE1 == idx)
+		if (idex == PEPE1)
 		{
 			PEPODO->n = n;
 			PEPODO->next = PEPOCTUAL;
@@ -41,11 +41,11 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 			PEPOCTUAL->prev->next = PEPODO;
 			return (PEPODO);
 		}
-		
+
 		PEPOCTUAL = PEPOCTUAL->next;
 		PEPE1++;
 	}
-	
+
 	return (PEPOCTUAL);
 }
 
