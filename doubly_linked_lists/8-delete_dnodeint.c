@@ -51,6 +51,25 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 }
 
 /**
+ * dlistint_len - count elements of a dlistint_t list
+ *
+ * @h: list
+ *
+ * Return: numbers of nodes
+ */
+size_t dlistint_len(const dlistint_t *h)
+{
+	int PEPE1 = 0;
+
+	while (h != NULL)
+	{
+		PEPE1++;
+		h = h->next;
+	}
+	return (PEPE1);
+}
+
+/**
  * get_dnodeint_at_index - returns the nth node of a dlistint_t linked list
  *
  * @head: list
