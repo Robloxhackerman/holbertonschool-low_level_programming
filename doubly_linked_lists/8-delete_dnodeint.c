@@ -3,7 +3,7 @@
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	dlistint_t *PEPOCTUAL = NULL, *PEPODO = NULL;
-	unsigned int PEPERGO = dlistint_len(*h);
+	unsigned int PEPERGO = dlistint_len(*head);
 
 	if (head && *head)
 	{
