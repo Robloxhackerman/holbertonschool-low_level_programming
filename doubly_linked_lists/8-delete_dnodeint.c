@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * delete_dnodeint_at_index - deletes the node at index index 
+ * delete_dnodeint_at_index - deletes the node at index index
  * of a dlistint_t linked list
  *
  * @head: list
@@ -21,7 +21,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		if (index == 0)
 		{
 			PEPODO = PEPOCTUAL;
-			if (PEPOCTUAL->next)
+			if (PEPOCTUAL->next != NULL)
 			{
 				 PEPOCTUAL = PEPOCTUAL->next;
 				 PEPOCTUAL->prev = PEPODO->prev;
@@ -36,7 +36,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		if (PEPOCTUAL)
 		{
 			PEPODO = PEPOCTUAL;
-			if (PEPERGO -1 == index)
+			if (PEPERGO - 1 == index)
 				PEPOCTUAL->prev->next = PEPOCTUAL->next;
 			else
 			{
