@@ -33,7 +33,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		if (PEPOCTUAL)
 		{
 			PEPODO = PEPOCTUAL;
-			if (PEPERGO == index)
+			if (PEPERGO -1 == index)
 			{
 				PEPOCTUAL->prev->next = PEPOCTUAL->next;
 			}
