@@ -7,7 +7,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 
 	if (head && *head)
 	{
-		if (index > PEPARGO)
+		if (index > PEPERGO)
 		{
 			return (-1);
 		}
