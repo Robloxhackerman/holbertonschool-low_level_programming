@@ -4,10 +4,10 @@ hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *tablita;
 	hash_node_t **arreglito;
-	int PEPE1;
+	unsigned long int PEPE1;
 
 	tablita = malloc(sizeof(hash_table_t));
-	arreglito = malloc(sizeof(hash_node_t * size));
+	arreglito = malloc(sizeof(hash_node_t)* size);
 
 	for (PEPE1 = 0; size > PEPE1; PEPE1++)
 	{
