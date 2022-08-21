@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_t - create a hash table
+ * hash_table_create - create a hash table
  *
  * @size: size of arrar
  *
@@ -28,7 +28,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	{
 		arreglito[PEPE1] = NULL;
 	}
-	
+
 	tablita->size = size;
 	tablita->array = arreglito;
 
