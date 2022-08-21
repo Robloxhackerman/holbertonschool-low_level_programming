@@ -1,5 +1,12 @@
 #include "hash_tables.h"
 
+/**
+ * hash_table_t - create a hash table
+ *
+ * @size: size of arrar
+ *
+ * Return: pointer to a new tablita or null if fail
+ */
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *tablita;
