@@ -12,9 +12,9 @@ int linear_search(int *array, size_t size, int value)
 	{
 		if (value == array[PEPE1])
 		{
-			printf("Found %d at index: %u", value, PEPE1);
+			printf("Found %d at index: %lu", value, PEPE1);
 		}
-		printf("Value checked array[%d] = [%u]", PEPE1, array[PEPE1]);
+		printf("Value checked array[%d] = [%lu]", PEPE1, array[PEPE1]);
 	}
 	return (0);
 }
