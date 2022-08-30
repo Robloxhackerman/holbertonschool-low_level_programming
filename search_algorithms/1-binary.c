@@ -31,7 +31,7 @@ int binary_search(int *array, size_t size, int value)
 		{
 			if (PEPE1 == PABAJO)
 			{
-				printf("%d", array[PEPE1])
+				printf("%d", array[PEPE1]);
 			}
 			else
 			{
