@@ -14,7 +14,7 @@ int linear_search(int *array, size_t size, int value)
 		{
 			printf("Found %d at index: %lu", value, PEPE1);
 		}
-		printf("Value checked array[%d] = [%lu]", PEPE1, array[PEPE1]);
+		printf("Value checked array[%lu] = [%d]", PEPE1, array[PEPE1]);
 	}
 	return (0);
 }
