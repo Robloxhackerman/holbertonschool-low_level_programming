@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * linear_search -  searches for a value in an array of
+ * binary_search -  searches for a value in an array of
  * integers using the  Binary search algorithm
  *
  * @array: a pointer to the first element of the array to search in
@@ -16,7 +16,6 @@ int binary_search(int *array, size_t size, int value)
 
 	PABAJO = 0;
 	PARRIBA = size - 1;
-
 	if (array == NULL)
 	{
 		return (-1);
@@ -24,9 +23,7 @@ int binary_search(int *array, size_t size, int value)
 	while (PABAJO <= PARRIBA)
 	{
 		PEPITAD = (PABAJO + PARRIBA) / 2;
-
 		printf("Searching in array: ");
-		
 		for (PEPE1 = PABAJO; PEPE1 <= PARRIBA; PEPE1++)
 		{
 			if (PEPE1 == PABAJO)
@@ -38,9 +35,7 @@ int binary_search(int *array, size_t size, int value)
 				printf(", %d", array[PEPE1]);
 			}
 		}
-
 		printf("\n");
-
 		if (array[PEPITAD] < value)
 		{
 			PABAJO = PEPITAD + 1;
