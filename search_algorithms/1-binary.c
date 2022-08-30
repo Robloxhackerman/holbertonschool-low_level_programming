@@ -38,19 +38,20 @@ int binary_search(int *array, size_t size, int value)
 				printf(", %d", array[PEPE1]);
 			}
 		}
-		if (array[PEPITAD] == value)
-		{
-			return (PEPITAD);
-		}
-		if (array[PEPITAD] > value)
-		{
-			PARRIBA = PEPITAD;
-			PEPITAD = (PABAJO + PARRIBA) / 2;
-		}
+
+		printf("\n");
+
 		if (array[PEPITAD] < value)
 		{
-			PABAJO = PEPITAD;
-			PEPITAD = (PABAJO + PARRIBA) / 2;
+			PABAJO = PEPITAD + 1;
+		}
+		else if (array[PEPITAD] > value)
+		{
+			PARRIBA = PEPITAD;
+		}
+		else
+		{
+			return (PEPITAD)
 		}
 	}
 	return (-1);
