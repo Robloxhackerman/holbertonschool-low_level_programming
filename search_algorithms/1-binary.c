@@ -25,7 +25,7 @@ int binary_search(int *array, size_t size, int value)
 	{
 		PEPITAD = (PABAJO + PARRIBA) / 2;
 
-		printf("Value checked array[%lu] = [%d]\n", PEPE1, array[PEPE1]);
+		printf("Searching in array: ");
 
 		if (array[PEPITAD] == value)
 		{
