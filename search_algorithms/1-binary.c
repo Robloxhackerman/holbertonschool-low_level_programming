@@ -12,7 +12,7 @@
  */
 int binary_search(int *array, size_t size, int value)
 {
-	size_t PEPITAD, PABAJO, PARRIBA;
+	size_t PEPITAD, PABAJO, PARRIBA, PEPE1;
 
 	PABAJO = 0;
 	PARRIBA = size;
@@ -26,7 +26,18 @@ int binary_search(int *array, size_t size, int value)
 		PEPITAD = (PABAJO + PARRIBA) / 2;
 
 		printf("Searching in array: ");
-
+		
+		for (PEPE1 = PABAJO; PEPE1 <= PARRIBA; PEPE1++)
+		{
+			if (PEPE1 == PABAJO)
+			{
+				printf("%d", array[PEPE1])
+			}
+			else
+			{
+				printf(", %d", array[PEPE1]);
+			}
+		}
 		if (array[PEPITAD] == value)
 		{
 			return (PEPITAD);
