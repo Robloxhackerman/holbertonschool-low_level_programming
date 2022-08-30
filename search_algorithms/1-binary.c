@@ -15,7 +15,7 @@ int binary_search(int *array, size_t size, int value)
 	size_t PEPITAD, PABAJO, PARRIBA, PEPE1;
 
 	PABAJO = 0;
-	PARRIBA = size;
+	PARRIBA = size - 1;
 
 	if (array == NULL)
 	{
